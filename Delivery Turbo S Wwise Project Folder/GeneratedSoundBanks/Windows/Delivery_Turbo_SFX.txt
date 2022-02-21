@@ -1,0 +1,10 @@
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	136858330	Boost	C:\Wwise\Projects\Delivery Turbo S\.cache\Windows\SFX\Boost_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Boost		1413028
+	579593823	Laser Shot 3	C:\Wwise\Projects\Delivery Turbo S\.cache\Windows\SFX\Laser Shot 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Laser Shots 3x\Laser Shot 3		728596
+	738625582	Laser Shot 2	C:\Wwise\Projects\Delivery Turbo S\.cache\Windows\SFX\Laser Shot 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Laser Shots 3x\Laser Shot 2		728596
+	756135008	Ricochet 2	C:\Wwise\Projects\Delivery Turbo S\.cache\Windows\SFX\Ricochet 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Shield Reflect 3x\Ricochet 2		495748
+	785120018	Laser Shot 1	C:\Wwise\Projects\Delivery Turbo S\.cache\Windows\SFX\Laser Shot 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Laser Shots 3x\Laser Shot 1		726832
+	804551779	Ricochet 4	C:\Wwise\Projects\Delivery Turbo S\.cache\Windows\SFX\Ricochet 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Shield Reflect 3x\Ricochet 4		529264
+	928470013	Ricochet 1	C:\Wwise\Projects\Delivery Turbo S\.cache\Windows\SFX\Ricochet 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Shield Reflect 3x\Ricochet 1		479872
+	978746161	Ricochet 3	C:\Wwise\Projects\Delivery Turbo S\.cache\Windows\SFX\Ricochet 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Shield Reflect 3x\Ricochet 3		536320
+
