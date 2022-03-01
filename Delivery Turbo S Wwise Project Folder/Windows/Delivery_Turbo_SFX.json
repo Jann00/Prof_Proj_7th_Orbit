@@ -1,0 +1,194 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Content\\Delivery_Turbo_S_Wwise_Project_Folder\\",
+   "SourceFilesRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Content\\Delivery_Turbo_S_Wwise_Project_Folder\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Content\\Delivery Turbo S Wwise Project Folder\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Content\\Delivery_Turbo_S_Wwise_Project_Folder"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2117772400",
+    "GUID": "{29261A01-C6AC-44C3-8694-B7D78279D781}",
+    "Language": "SFX",
+    "Hash": "3953330430",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Delivery_Turbo_SFX",
+    "ShortName": "Delivery_Turbo_SFX",
+    "Path": "Delivery_Turbo_SFX.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2471511097",
+      "Name": "Play_Chargeup",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Chargeup",
+      "GUID": "{ECBEF176-933D-4694-BA96-7FE05C7C126D}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.91",
+      "DurationMax": "6.91",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "451595727",
+        "Language": "SFX",
+        "ShortName": "Charge_2.wav",
+        "Path": "SFX\\Charge_2_10C4C929.wem"
+       },
+       {
+        "Id": "494377192",
+        "Language": "SFX",
+        "ShortName": "Charge_3.wav",
+        "Path": "SFX\\Charge_3_10C4C929.wem"
+       },
+       {
+        "Id": "712531982",
+        "Language": "SFX",
+        "ShortName": "Charge_1.wav",
+        "Path": "SFX\\Charge_1_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "354501856",
+      "Name": "Shield_Reflect",
+      "ObjectPath": "\\Events\\Default Work Unit\\Shield_Reflect",
+      "GUID": "{07AF8F07-11D7-4EBC-BDBC-B8BA786AB42A}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.72",
+      "DurationMax": "3.04"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "130233522",
+      "Language": "SFX",
+      "ShortName": "Fast siren hi.wav",
+      "Path": "SFX\\Fast siren hi_10C4C929.wem"
+     },
+     {
+      "Id": "136858330",
+      "Language": "SFX",
+      "ShortName": "Boost.wav",
+      "Path": "SFX\\Boost_10C4C929.wem"
+     },
+     {
+      "Id": "180382592",
+      "Language": "SFX",
+      "ShortName": "police long.wav",
+      "Path": "SFX\\police long_10C4C929.wem"
+     },
+     {
+      "Id": "298664394",
+      "Language": "SFX",
+      "ShortName": "Air horn short.wav",
+      "Path": "SFX\\Air horn short_10C4C929.wem"
+     },
+     {
+      "Id": "332389604",
+      "Language": "SFX",
+      "ShortName": "Fire_2.wav",
+      "Path": "SFX\\Fire_2_10C4C929.wem"
+     },
+     {
+      "Id": "451595727",
+      "Language": "SFX",
+      "ShortName": "Charge_2.wav",
+      "Path": "SFX\\Charge_2_10C4C929.wem"
+     },
+     {
+      "Id": "455837388",
+      "Language": "SFX",
+      "ShortName": "Fast siren lo.wav",
+      "Path": "SFX\\Fast siren lo_10C4C929.wem"
+     },
+     {
+      "Id": "463505214",
+      "Language": "SFX",
+      "ShortName": "Siren hi.wav",
+      "Path": "SFX\\Siren hi_10C4C929.wem"
+     },
+     {
+      "Id": "473232844",
+      "Language": "SFX",
+      "ShortName": "beef siren lo.wav",
+      "Path": "SFX\\beef siren lo_10C4C929.wem"
+     },
+     {
+      "Id": "494377192",
+      "Language": "SFX",
+      "ShortName": "Charge_3.wav",
+      "Path": "SFX\\Charge_3_10C4C929.wem"
+     },
+     {
+      "Id": "511862039",
+      "Language": "SFX",
+      "ShortName": "Siren lo.wav",
+      "Path": "SFX\\Siren lo_10C4C929.wem"
+     },
+     {
+      "Id": "556779166",
+      "Language": "SFX",
+      "ShortName": "Fire_3.wav",
+      "Path": "SFX\\Fire_3_10C4C929.wem"
+     },
+     {
+      "Id": "567191424",
+      "Language": "SFX",
+      "ShortName": "beef siren hi.wav",
+      "Path": "SFX\\beef siren hi_10C4C929.wem"
+     },
+     {
+      "Id": "712531982",
+      "Language": "SFX",
+      "ShortName": "Charge_1.wav",
+      "Path": "SFX\\Charge_1_10C4C929.wem"
+     },
+     {
+      "Id": "756135008",
+      "Language": "SFX",
+      "ShortName": "Ricochet 2.wav",
+      "Path": "SFX\\Ricochet 2_10C4C929.wem"
+     },
+     {
+      "Id": "804551779",
+      "Language": "SFX",
+      "ShortName": "Ricochet 4.wav",
+      "Path": "SFX\\Ricochet 4_10C4C929.wem"
+     },
+     {
+      "Id": "857593525",
+      "Language": "SFX",
+      "ShortName": "Air horn long.wav",
+      "Path": "SFX\\Air horn long_10C4C929.wem"
+     },
+     {
+      "Id": "913418593",
+      "Language": "SFX",
+      "ShortName": "police short.wav",
+      "Path": "SFX\\police short_10C4C929.wem"
+     },
+     {
+      "Id": "928470013",
+      "Language": "SFX",
+      "ShortName": "Ricochet 1.wav",
+      "Path": "SFX\\Ricochet 1_10C4C929.wem"
+     },
+     {
+      "Id": "978746161",
+      "Language": "SFX",
+      "ShortName": "Ricochet 3.wav",
+      "Path": "SFX\\Ricochet 3_10C4C929.wem"
+     },
+     {
+      "Id": "1063606124",
+      "Language": "SFX",
+      "ShortName": "Fire_1.wav",
+      "Path": "SFX\\Fire_1_10C4C929.wem"
+     }
+    ]
+   }
+  ]
+ }
+}

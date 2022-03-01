@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{25F709AA-7194-4D98-9CDA-C11A1CF34F61}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{25F709AA-7194-4D98-9CDA-C11A1CF34F61}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Enemy" ID="{21915634-F8EF-417A-8D4D-8082D60D0F73}" ShortID="274747242">
+					<ChildrenList>
+						<Event Name="Death_Explosions" ID="{D8A2BE1D-87A3-44B1-B4CE-DDE4BEB9C2D7}">
+							<ChildrenList>
+								<Action Name="" ID="{C21E3603-F00A-4C82-AA82-6F598AEEA852}" ShortID="971337074">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Explosions" ID="{1ADFB6C9-A24B-4AD0-ABA0-A01C57844303}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Laser_Chargeup" ID="{ECBEF176-933D-4694-BA96-7FE05C7C126D}">
+							<ChildrenList>
+								<Action Name="" ID="{C4431B95-3EBC-47A9-BE02-C4EBE654EE97}" ShortID="511953727">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chargeup" ID="{CD826501-0C2D-464A-9E0E-4A88BBCE9616}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Laser_Fire" ID="{6A586B59-5AFD-4F64-B458-6A86658621E2}">
+							<ChildrenList>
+								<Action Name="" ID="{1C467E2A-556C-4C0A-9ADE-3F0EFAE2BD2F}" ShortID="322405674">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fire" ID="{022F2BE6-FADA-4524-B2B1-1EC0D1E61E80}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Police_Sirens" ID="{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}">
+							<ChildrenList>
+								<Action Name="" ID="{3B1C0FFB-D95A-4410-AD46-EF0BBA0C147C}" ShortID="678850983">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sirens" ID="{CC3C3AA4-9B4E-42F1-BAFD-90F5782EB366}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{27443757-0155-495C-A7D0-2596F7ED2566}" ShortID="737845860">
+					<ChildrenList>
+						<Event Name="Shield_Reflect" ID="{07AF8F07-11D7-4EBC-BDBC-B8BA786AB42A}">
+							<ChildrenList>
+								<Action Name="" ID="{2B1ED77F-B3B2-438A-842F-440B1C70E68F}" ShortID="258250704">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Shield_Parry" ID="{0F64643F-4653-4760-A2F9-8E7A012465CC}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Crash_Neon_Signs" ID="{05FAB36D-607F-4B00-AA5C-EC2260AE83A6}">
+							<ChildrenList>
+								<Action Name="" ID="{0203BFD6-6689-4CB3-AD0A-28A77A5FD393}" ShortID="252100733">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Neon Signs" ID="{771D94DB-F164-472B-9278-69208C998210}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Turbo_Boost" ID="{C22A86F2-8CEA-4955-8F77-DFDECB74DCA5}">
+							<ChildrenList>
+								<Action Name="" ID="{74FA8B6E-B55F-45BE-854C-89D404C50AE0}" ShortID="874016034">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boost" ID="{B8368629-D118-4640-B7FD-A7FEB2E565E4}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
