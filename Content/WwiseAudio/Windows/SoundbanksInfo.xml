@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="589444807">
+		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="2061319659">
 			<ObjectPath>\SoundBanks\Default Work Unit\Delivery_Turbo_SFX</ObjectPath>
 			<ShortName>Delivery_Turbo_SFX</ShortName>
 			<Path>Delivery_Turbo_SFX.bnk</Path>
@@ -57,7 +57,14 @@
 				<Event Id="1675087065" Name="Laser_Fire" ObjectPath="\Events\Default Work Unit\Enemy\Laser_Fire" GUID="{6A586B59-5AFD-4F64-B458-6A86658621E2}" DurationType="OneShot" DurationMin="3.79" DurationMax="3.87"/>
 				<Event Id="469239576" Name="Police_Sirens" ObjectPath="\Events\Default Work Unit\Enemy\Police_Sirens" GUID="{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}" DurationType="OneShot" DurationMin="4.76" DurationMax="11.22"/>
 				<Event Id="354501856" Name="Shield_Reflect" ObjectPath="\Events\Default Work Unit\Player\Shield_Reflect" GUID="{07AF8F07-11D7-4EBC-BDBC-B8BA786AB42A}" DurationType="OneShot" DurationMin="2.72" DurationMax="3.04"/>
-				<Event Id="2915407359" Name="Turbo_Boost" ObjectPath="\Events\Default Work Unit\Player\Turbo_Boost" GUID="{C22A86F2-8CEA-4955-8F77-DFDECB74DCA5}" DurationType="OneShot" DurationMin="8.01" DurationMax="8.01"/>
+				<Event Id="2915407359" Name="Turbo_Boost" ObjectPath="\Events\Default Work Unit\Player\Turbo_Boost" GUID="{C22A86F2-8CEA-4955-8F77-DFDECB74DCA5}" DurationType="OneShot" DurationMin="8.01" DurationMax="8.01">
+					<IncludedMemoryFiles>
+						<File Id="136858330" Language="SFX">
+							<ShortName>Boost.wav</ShortName>
+							<Path>SFX\Boost_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="87812547" Language="SFX">

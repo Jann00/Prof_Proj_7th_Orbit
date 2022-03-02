@@ -16,7 +16,7 @@
     "Id": "2117772400",
     "GUID": "{29261A01-C6AC-44C3-8694-B7D78279D781}",
     "Language": "SFX",
-    "Hash": "589444807",
+    "Hash": "2061319659",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Delivery_Turbo_SFX",
     "ShortName": "Delivery_Turbo_SFX",
     "Path": "Delivery_Turbo_SFX.bnk",
@@ -122,7 +122,15 @@
       "GUID": "{C22A86F2-8CEA-4955-8F77-DFDECB74DCA5}",
       "DurationType": "OneShot",
       "DurationMin": "8.01",
-      "DurationMax": "8.01"
+      "DurationMax": "8.01",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "136858330",
+        "Language": "SFX",
+        "ShortName": "Boost.wav",
+        "Path": "SFX\\Boost_10C4C929.wem"
+       }
+      ]
      }
     ],
     "IncludedMemoryFiles": [
