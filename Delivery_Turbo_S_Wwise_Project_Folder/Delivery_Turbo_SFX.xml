@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Content\Delivery_Turbo_S_Wwise_Project_Folder\</ProjectRoot>
-		<SourceFilesRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Content\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Content\Delivery_Turbo_S_Wwise_Project_Folder\</SoundBanksRoot>
+		<ProjectRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\</ProjectRoot>
+		<SourceFilesRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Content\Delivery_Turbo_S_Wwise_Project_Folder</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="386635285">
+		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="1589862733">
 			<ObjectPath>\SoundBanks\Default Work Unit\Delivery_Turbo_SFX</ObjectPath>
 			<ShortName>Delivery_Turbo_SFX</ShortName>
 			<Path>Delivery_Turbo_SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2475145526" Name="Crash_Neon_Signs" ObjectPath="\Events\Default Work Unit\Player\Crash_Neon_Signs" GUID="{05FAB36D-607F-4B00-AA5C-EC2260AE83A6}" DurationType="OneShot" DurationMin="2.92" DurationMax="3.15"/>
+				<Event Id="3092917036" Name="Boost_End" ObjectPath="\Events\Default Work Unit\Player\Boost\Boost_End" GUID="{74763F5B-D82F-45CE-9104-762DB524E4FE}" DurationType="OneShot" DurationMin="3.41" DurationMax="3.41"/>
+				<Event Id="2188867727" Name="Boost_Start" ObjectPath="\Events\Default Work Unit\Player\Boost\Boost_Start" GUID="{C22A86F2-8CEA-4955-8F77-DFDECB74DCA5}" DurationType="OneShot" DurationMin="6.53" DurationMax="6.53"/>
+				<Event Id="4247371150" Name="Chargeup" ObjectPath="\Events\Default Work Unit\Enemy\Laser\Chargeup" GUID="{ECBEF176-933D-4694-BA96-7FE05C7C126D}" DurationType="OneShot" DurationMin="6.91" DurationMax="6.91"/>
 				<Event Id="2584173288" Name="Death_Explosions" ObjectPath="\Events\Default Work Unit\Enemy\Death_Explosions" GUID="{D8A2BE1D-87A3-44B1-B4CE-DDE4BEB9C2D7}" DurationType="OneShot" DurationMin="3.61" DurationMax="4."/>
-				<Event Id="2493898654" Name="Laser_Chargeup" ObjectPath="\Events\Default Work Unit\Enemy\Laser_Chargeup" GUID="{ECBEF176-933D-4694-BA96-7FE05C7C126D}" DurationType="OneShot" DurationMin="6.91" DurationMax="6.91"/>
-				<Event Id="1675087065" Name="Laser_Fire" ObjectPath="\Events\Default Work Unit\Enemy\Laser_Fire" GUID="{6A586B59-5AFD-4F64-B458-6A86658621E2}" DurationType="OneShot" DurationMin="3.79" DurationMax="3.87"/>
+				<Event Id="2678880713" Name="Fire" ObjectPath="\Events\Default Work Unit\Enemy\Laser\Fire" GUID="{6A586B59-5AFD-4F64-B458-6A86658621E2}" DurationType="OneShot" DurationMin="3.79" DurationMax="3.87"/>
+				<Event Id="352728014" Name="Neon_Signs" ObjectPath="\Events\Default Work Unit\Player\Crash\Neon_Signs" GUID="{05FAB36D-607F-4B00-AA5C-EC2260AE83A6}" DurationType="OneShot" DurationMin="2.92" DurationMax="3.15"/>
+				<Event Id="3076648345" Name="Parry" ObjectPath="\Events\Default Work Unit\Player\Shield\Parry" GUID="{07AF8F07-11D7-4EBC-BDBC-B8BA786AB42A}" DurationType="OneShot" DurationMin="2.72" DurationMax="3.04"/>
 				<Event Id="469239576" Name="Police_Sirens" ObjectPath="\Events\Default Work Unit\Enemy\Police_Sirens" GUID="{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}" DurationType="OneShot" DurationMin="4.76" DurationMax="11.22"/>
-				<Event Id="354501856" Name="Shield_Reflect" ObjectPath="\Events\Default Work Unit\Player\Shield_Reflect" GUID="{07AF8F07-11D7-4EBC-BDBC-B8BA786AB42A}" DurationType="OneShot" DurationMin="2.72" DurationMax="3.04"/>
-				<Event Id="2915407359" Name="Turbo_Boost" ObjectPath="\Events\Default Work Unit\Player\Turbo_Boost" GUID="{C22A86F2-8CEA-4955-8F77-DFDECB74DCA5}" DurationType="OneShot" DurationMin="8.01" DurationMax="8.01"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="87812547" Language="SFX">
@@ -41,6 +42,10 @@
 				<File Id="298664394" Language="SFX">
 					<ShortName>Air horn short.wav</ShortName>
 					<Path>SFX\Air horn short_10C4C929.wem</Path>
+				</File>
+				<File Id="325336864" Language="SFX">
+					<ShortName>Boost_End.wav</ShortName>
+					<Path>SFX\Boost_End_10C4C929.wem</Path>
 				</File>
 				<File Id="332389604" Language="SFX">
 					<ShortName>Fire_2.wav</ShortName>
@@ -97,6 +102,10 @@
 				<File Id="733703452" Language="SFX">
 					<ShortName>Crashes\Neon signs\Neon Sign 3.wav</ShortName>
 					<Path>SFX\Crashes\Neon signs\Neon Sign 3_10C4C929.wem</Path>
+				</File>
+				<File Id="754173065" Language="SFX">
+					<ShortName>Boost_Start.wav</ShortName>
+					<Path>SFX\Boost_Start_10C4C929.wem</Path>
 				</File>
 				<File Id="756135008" Language="SFX">
 					<ShortName>Ricochet 2.wav</ShortName>
