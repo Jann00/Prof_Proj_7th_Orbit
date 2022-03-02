@@ -16,28 +16,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Laser_Chargeup" ID="{ECBEF176-933D-4694-BA96-7FE05C7C126D}">
-							<ChildrenList>
-								<Action Name="" ID="{C4431B95-3EBC-47A9-BE02-C4EBE654EE97}" ShortID="511953727">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Chargeup" ID="{CD826501-0C2D-464A-9E0E-4A88BBCE9616}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Laser_Fire" ID="{6A586B59-5AFD-4F64-B458-6A86658621E2}">
-							<ChildrenList>
-								<Action Name="" ID="{1C467E2A-556C-4C0A-9ADE-3F0EFAE2BD2F}" ShortID="322405674">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Fire" ID="{022F2BE6-FADA-4524-B2B1-1EC0D1E61E80}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Police_Sirens" ID="{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}">
 							<ChildrenList>
 								<Action Name="" ID="{3B1C0FFB-D95A-4410-AD46-EF0BBA0C147C}" ShortID="678850983">
@@ -49,43 +27,92 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Laser" ID="{A97E8046-329D-4586-9736-E3666F4BCCF3}" ShortID="132871711">
+							<ChildrenList>
+								<Event Name="Chargeup" ID="{ECBEF176-933D-4694-BA96-7FE05C7C126D}">
+									<ChildrenList>
+										<Action Name="" ID="{C4431B95-3EBC-47A9-BE02-C4EBE654EE97}" ShortID="511953727">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Chargeup" ID="{CD826501-0C2D-464A-9E0E-4A88BBCE9616}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Fire" ID="{6A586B59-5AFD-4F64-B458-6A86658621E2}">
+									<ChildrenList>
+										<Action Name="" ID="{1C467E2A-556C-4C0A-9ADE-3F0EFAE2BD2F}" ShortID="322405674">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fire" ID="{022F2BE6-FADA-4524-B2B1-1EC0D1E61E80}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{27443757-0155-495C-A7D0-2596F7ED2566}" ShortID="737845860">
 					<ChildrenList>
-						<Event Name="Shield_Reflect" ID="{07AF8F07-11D7-4EBC-BDBC-B8BA786AB42A}">
+						<Folder Name="Boost" ID="{79C4A275-1BC6-4125-9572-AAA15940FCFE}" ShortID="1008002841">
 							<ChildrenList>
-								<Action Name="" ID="{2B1ED77F-B3B2-438A-842F-440B1C70E68F}" ShortID="258250704">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Shield_Parry" ID="{0F64643F-4653-4760-A2F9-8E7A012465CC}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Boost_Start" ID="{C22A86F2-8CEA-4955-8F77-DFDECB74DCA5}">
+									<ChildrenList>
+										<Action Name="" ID="{1E5F2B8E-BDA7-4AAA-BFD1-1ED128072524}" ShortID="722261294">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Boost_Start" ID="{EDB26AAE-6784-4634-A3E4-922E50D3C274}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Boost_End" ID="{74763F5B-D82F-45CE-9104-762DB524E4FE}">
+									<ChildrenList>
+										<Action Name="" ID="{C8476ED3-8E9E-449A-8DD8-81E7D2A34845}" ShortID="287693462">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Boost_End" ID="{94F2DEC7-5508-4290-BEE7-09B4D1086EAE}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Crash_Neon_Signs" ID="{05FAB36D-607F-4B00-AA5C-EC2260AE83A6}">
+						</Folder>
+						<Folder Name="Crash" ID="{9F58A9A5-3D43-4151-9BD9-AD4CE71FEB3C}" ShortID="241611991">
 							<ChildrenList>
-								<Action Name="" ID="{0203BFD6-6689-4CB3-AD0A-28A77A5FD393}" ShortID="252100733">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Neon Signs" ID="{771D94DB-F164-472B-9278-69208C998210}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Neon_Signs" ID="{05FAB36D-607F-4B00-AA5C-EC2260AE83A6}">
+									<ChildrenList>
+										<Action Name="" ID="{0203BFD6-6689-4CB3-AD0A-28A77A5FD393}" ShortID="252100733">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Neon Signs" ID="{771D94DB-F164-472B-9278-69208C998210}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Turbo_Boost" ID="{C22A86F2-8CEA-4955-8F77-DFDECB74DCA5}">
+						</Folder>
+						<Folder Name="Shield" ID="{57353F77-4E4F-4F73-ABFC-EB7076886DFC}" ShortID="838879577">
 							<ChildrenList>
-								<Action Name="" ID="{74FA8B6E-B55F-45BE-854C-89D404C50AE0}" ShortID="874016034">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Boost" ID="{B8368629-D118-4640-B7FD-A7FEB2E565E4}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Parry" ID="{07AF8F07-11D7-4EBC-BDBC-B8BA786AB42A}">
+									<ChildrenList>
+										<Action Name="" ID="{2B1ED77F-B3B2-438A-842F-440B1C70E68F}" ShortID="258250704">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shield_Parry" ID="{0F64643F-4653-4760-A2F9-8E7A012465CC}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
