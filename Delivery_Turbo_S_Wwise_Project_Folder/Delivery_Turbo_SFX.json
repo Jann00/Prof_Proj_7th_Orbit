@@ -1,0 +1,334 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
+   "SourceFilesRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Content\\Delivery_Turbo_S_Wwise_Project_Folder"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2117772400",
+    "GUID": "{29261A01-C6AC-44C3-8694-B7D78279D781}",
+    "Language": "SFX",
+    "Hash": "4228465952",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Delivery_Turbo_SFX",
+    "ShortName": "Delivery_Turbo_SFX",
+    "Path": "Delivery_Turbo_SFX.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4166407614",
+      "Name": "Activate",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Shield\\Activate",
+      "GUID": "{95ECDC50-7ECF-4666-9104-40BA59220C0F}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.54",
+      "DurationMax": "3.54"
+     },
+     {
+      "Id": "3092917036",
+      "Name": "Boost_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Boost\\Boost_End",
+      "GUID": "{74763F5B-D82F-45CE-9104-762DB524E4FE}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.41",
+      "DurationMax": "3.41"
+     },
+     {
+      "Id": "2188867727",
+      "Name": "Boost_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Boost\\Boost_Start",
+      "GUID": "{C22A86F2-8CEA-4955-8F77-DFDECB74DCA5}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.53",
+      "DurationMax": "6.53"
+     },
+     {
+      "Id": "4247371150",
+      "Name": "Chargeup",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Laser\\Chargeup",
+      "GUID": "{ECBEF176-933D-4694-BA96-7FE05C7C126D}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.91",
+      "DurationMax": "6.91"
+     },
+     {
+      "Id": "2584173288",
+      "Name": "Death_Explosions",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Death_Explosions",
+      "GUID": "{D8A2BE1D-87A3-44B1-B4CE-DDE4BEB9C2D7}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.61",
+      "DurationMax": "4."
+     },
+     {
+      "Id": "1526952917",
+      "Name": "EngineLoop",
+      "ObjectPath": "\\Events\\Default Work Unit\\EngineLoop",
+      "GUID": "{606D6590-C0A4-4A08-8733-16E534635B71}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "2678880713",
+      "Name": "Fire",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Laser\\Fire",
+      "GUID": "{6A586B59-5AFD-4F64-B458-6A86658621E2}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.79",
+      "DurationMax": "3.87"
+     },
+     {
+      "Id": "4085277030",
+      "Name": "Hold_Shield",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Shield\\Hold_Shield",
+      "GUID": "{3A93548A-4028-4501-932E-3EC51F1EE505}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.99",
+      "DurationMax": "7.99"
+     },
+     {
+      "Id": "352728014",
+      "Name": "Neon_Signs",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Crash\\Neon_Signs",
+      "GUID": "{05FAB36D-607F-4B00-AA5C-EC2260AE83A6}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.92",
+      "DurationMax": "3.15"
+     },
+     {
+      "Id": "3076648345",
+      "Name": "Parry",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Shield\\Parry",
+      "GUID": "{07AF8F07-11D7-4EBC-BDBC-B8BA786AB42A}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.72",
+      "DurationMax": "3.04"
+     },
+     {
+      "Id": "469239576",
+      "Name": "Police_Sirens",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Police_Sirens",
+      "GUID": "{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.76",
+      "DurationMax": "11.22"
+     },
+     {
+      "Id": "2405648188",
+      "Name": "Release",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Shield\\Release",
+      "GUID": "{CD6E0738-7BC2-41BB-9A28-375C4311EB29}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.38",
+      "DurationMax": "2.38"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "87812547",
+      "Language": "SFX",
+      "ShortName": "Explosions\\Explode 2.wav",
+      "Path": "SFX\\Explosions\\Explode 2_10C4C929.wem"
+     },
+     {
+      "Id": "111027056",
+      "Language": "SFX",
+      "ShortName": "Hold Shield.wav",
+      "Path": "SFX\\Hold Shield_10C4C929.wem"
+     },
+     {
+      "Id": "130233522",
+      "Language": "SFX",
+      "ShortName": "Fast siren hi.wav",
+      "Path": "SFX\\Fast siren hi_10C4C929.wem"
+     },
+     {
+      "Id": "180382592",
+      "Language": "SFX",
+      "ShortName": "police long.wav",
+      "Path": "SFX\\police long_10C4C929.wem"
+     },
+     {
+      "Id": "298664394",
+      "Language": "SFX",
+      "ShortName": "Air horn short.wav",
+      "Path": "SFX\\Air horn short_10C4C929.wem"
+     },
+     {
+      "Id": "325336864",
+      "Language": "SFX",
+      "ShortName": "Boost_End.wav",
+      "Path": "SFX\\Boost_End_10C4C929.wem"
+     },
+     {
+      "Id": "328277594",
+      "Language": "SFX",
+      "ShortName": "Activate.wav",
+      "Path": "SFX\\Activate_10C4C929.wem"
+     },
+     {
+      "Id": "332389604",
+      "Language": "SFX",
+      "ShortName": "Fire_2.wav",
+      "Path": "SFX\\Fire_2_10C4C929.wem"
+     },
+     {
+      "Id": "377402952",
+      "Language": "SFX",
+      "ShortName": "Release.wav",
+      "Path": "SFX\\Release_10C4C929.wem"
+     },
+     {
+      "Id": "382916893",
+      "Language": "SFX",
+      "ShortName": "Explosions\\Explode 3.wav",
+      "Path": "SFX\\Explosions\\Explode 3_10C4C929.wem"
+     },
+     {
+      "Id": "451595727",
+      "Language": "SFX",
+      "ShortName": "Charge_2.wav",
+      "Path": "SFX\\Charge_2_10C4C929.wem"
+     },
+     {
+      "Id": "455837388",
+      "Language": "SFX",
+      "ShortName": "Fast siren lo.wav",
+      "Path": "SFX\\Fast siren lo_10C4C929.wem"
+     },
+     {
+      "Id": "463505214",
+      "Language": "SFX",
+      "ShortName": "Siren hi.wav",
+      "Path": "SFX\\Siren hi_10C4C929.wem"
+     },
+     {
+      "Id": "473232844",
+      "Language": "SFX",
+      "ShortName": "beef siren lo.wav",
+      "Path": "SFX\\beef siren lo_10C4C929.wem"
+     },
+     {
+      "Id": "483320932",
+      "Language": "SFX",
+      "ShortName": "Crashes\\Neon signs\\Neon Sign 4.wav",
+      "Path": "SFX\\Crashes\\Neon signs\\Neon Sign 4_10C4C929.wem"
+     },
+     {
+      "Id": "494377192",
+      "Language": "SFX",
+      "ShortName": "Charge_3.wav",
+      "Path": "SFX\\Charge_3_10C4C929.wem"
+     },
+     {
+      "Id": "511862039",
+      "Language": "SFX",
+      "ShortName": "Siren lo.wav",
+      "Path": "SFX\\Siren lo_10C4C929.wem"
+     },
+     {
+      "Id": "540801608",
+      "Language": "SFX",
+      "ShortName": "Crashes\\Neon signs\\Neon Sign 2.wav",
+      "Path": "SFX\\Crashes\\Neon signs\\Neon Sign 2_10C4C929.wem"
+     },
+     {
+      "Id": "556779166",
+      "Language": "SFX",
+      "ShortName": "Fire_3.wav",
+      "Path": "SFX\\Fire_3_10C4C929.wem"
+     },
+     {
+      "Id": "567191424",
+      "Language": "SFX",
+      "ShortName": "beef siren hi.wav",
+      "Path": "SFX\\beef siren hi_10C4C929.wem"
+     },
+     {
+      "Id": "712531982",
+      "Language": "SFX",
+      "ShortName": "Charge_1.wav",
+      "Path": "SFX\\Charge_1_10C4C929.wem"
+     },
+     {
+      "Id": "733703452",
+      "Language": "SFX",
+      "ShortName": "Crashes\\Neon signs\\Neon Sign 3.wav",
+      "Path": "SFX\\Crashes\\Neon signs\\Neon Sign 3_10C4C929.wem"
+     },
+     {
+      "Id": "754173065",
+      "Language": "SFX",
+      "ShortName": "Boost_Start.wav",
+      "Path": "SFX\\Boost_Start_10C4C929.wem"
+     },
+     {
+      "Id": "756135008",
+      "Language": "SFX",
+      "ShortName": "Ricochet 2.wav",
+      "Path": "SFX\\Ricochet 2_10C4C929.wem"
+     },
+     {
+      "Id": "804551779",
+      "Language": "SFX",
+      "ShortName": "Ricochet 4.wav",
+      "Path": "SFX\\Ricochet 4_10C4C929.wem"
+     },
+     {
+      "Id": "814047282",
+      "Language": "SFX",
+      "ShortName": "EngineLoop the one.wav",
+      "Path": "SFX\\EngineLoop the one_D79FB2B7.wem"
+     },
+     {
+      "Id": "857593525",
+      "Language": "SFX",
+      "ShortName": "Air horn long.wav",
+      "Path": "SFX\\Air horn long_10C4C929.wem"
+     },
+     {
+      "Id": "888857331",
+      "Language": "SFX",
+      "ShortName": "Explosions\\Explode 1.wav",
+      "Path": "SFX\\Explosions\\Explode 1_10C4C929.wem"
+     },
+     {
+      "Id": "913418593",
+      "Language": "SFX",
+      "ShortName": "police short.wav",
+      "Path": "SFX\\police short_10C4C929.wem"
+     },
+     {
+      "Id": "928470013",
+      "Language": "SFX",
+      "ShortName": "Ricochet 1.wav",
+      "Path": "SFX\\Ricochet 1_10C4C929.wem"
+     },
+     {
+      "Id": "978746161",
+      "Language": "SFX",
+      "ShortName": "Ricochet 3.wav",
+      "Path": "SFX\\Ricochet 3_10C4C929.wem"
+     },
+     {
+      "Id": "1052946283",
+      "Language": "SFX",
+      "ShortName": "Crashes\\Neon signs\\Neon Sign 1.wav",
+      "Path": "SFX\\Crashes\\Neon signs\\Neon Sign 1_10C4C929.wem"
+     },
+     {
+      "Id": "1063606124",
+      "Language": "SFX",
+      "ShortName": "Fire_1.wav",
+      "Path": "SFX\\Fire_1_10C4C929.wem"
+     }
+    ]
+   }
+  ]
+ }
+}
