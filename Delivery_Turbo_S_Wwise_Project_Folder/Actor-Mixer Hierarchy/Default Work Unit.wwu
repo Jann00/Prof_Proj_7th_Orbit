@@ -5,43 +5,6 @@
 			<ChildrenList>
 				<Folder Name="Player" ID="{1035E5BB-B7AB-4DFE-867A-B42D7AE875AA}" ShortID="797417369">
 					<ChildrenList>
-						<Sound Name="Boost full" ID="{B8368629-D118-4640-B7FD-A7FEB2E565E4}" ShortID="889613885">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Boost" ID="{CFCF9F7E-1281-43FD-AC21-0CB3E705E2DD}">
-									<Language>SFX</Language>
-									<AudioFile>Boost.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="136858330"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="Boost_End" ID="{90BD3553-1FFD-4FF1-BD0D-0EB934A78FDC}">
-									<Language>SFX</Language>
-									<AudioFile>Boost_End.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="325336864"/>
-									</MediaIDList>
-								</AudioFileSource>
-								<AudioFileSource Name="Boost_Start" ID="{2AAA3F25-5AFA-4F35-B203-0F3DF6041D4A}">
-									<Language>SFX</Language>
-									<AudioFile>Boost_Start.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="754173065"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Boost" ID="{CFCF9F7E-1281-43FD-AC21-0CB3E705E2DD}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Folder Name="Crashes" ID="{3B66D4A7-4694-46F2-83BF-05131C161417}" ShortID="934824403">
 							<ChildrenList>
 								<Folder Name="Neon signs" ID="{EE79665C-ECF5-475B-873E-ABB5CE845EF8}" ShortID="1061753884">
@@ -276,6 +239,89 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
+								<Sound Name="Activate" ID="{5590EBD1-286D-4007-A29C-CC93F302B3CD}" ShortID="1038726414">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Activate" ID="{DD1A9A12-A51F-402F-AE48-5B4372BB436D}">
+											<Language>SFX</Language>
+											<AudioFile>Activate.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="328277594"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Activate" ID="{DD1A9A12-A51F-402F-AE48-5B4372BB436D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Release" ID="{987271D3-00EE-486D-B944-E4621250663E}" ShortID="565839796">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Release" ID="{E52C62AA-4E1A-4C1A-BC17-5A8376CD2948}">
+											<Language>SFX</Language>
+											<AudioFile>Release.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="377402952"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Release" ID="{E52C62AA-4E1A-4C1A-BC17-5A8376CD2948}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hold Shield" ID="{76ABAFED-10EC-4C43-9166-839E865F903C}" ShortID="387376192">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hold Shield" ID="{24770DAD-452B-4959-A49B-D455667A60D6}">
+											<Language>SFX</Language>
+											<AudioFile>Hold Shield.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="111027056"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hold Shield" ID="{24770DAD-452B-4959-A49B-D455667A60D6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Boost" ID="{2514023B-9AA4-44B2-89EF-4C626580E70A}" ShortID="586524639">
@@ -304,6 +350,20 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Boost_Start" ID="{EDB26AAE-6784-4634-A3E4-922E50D3C274}" ShortID="357796345">
+									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
@@ -328,6 +388,42 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="EngineLoop" ID="{6357DCC0-FA3D-4F9D-8346-4F1733F63339}" ShortID="950228565">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OutputBusLowpass" Type="int16">
+									<ValueList>
+										<Value>32</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EngineLoop the one" ID="{9E0ED117-15F5-4455-906E-9D1E0D9DF06C}">
+									<Language>SFX</Language>
+									<AudioFile>EngineLoop the one.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="814047282"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="EngineLoop the one" ID="{9E0ED117-15F5-4455-906E-9D1E0D9DF06C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Enemy" ID="{318C7146-A1FD-48BF-86DF-55077D26A52A}" ShortID="997562581">

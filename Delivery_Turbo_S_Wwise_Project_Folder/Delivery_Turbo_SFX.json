@@ -16,11 +16,20 @@
     "Id": "2117772400",
     "GUID": "{29261A01-C6AC-44C3-8694-B7D78279D781}",
     "Language": "SFX",
-    "Hash": "1589862733",
+    "Hash": "4228465952",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Delivery_Turbo_SFX",
     "ShortName": "Delivery_Turbo_SFX",
     "Path": "Delivery_Turbo_SFX.bnk",
     "IncludedEvents": [
+     {
+      "Id": "4166407614",
+      "Name": "Activate",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Shield\\Activate",
+      "GUID": "{95ECDC50-7ECF-4666-9104-40BA59220C0F}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.54",
+      "DurationMax": "3.54"
+     },
      {
       "Id": "3092917036",
       "Name": "Boost_End",
@@ -58,6 +67,13 @@
       "DurationMax": "4."
      },
      {
+      "Id": "1526952917",
+      "Name": "EngineLoop",
+      "ObjectPath": "\\Events\\Default Work Unit\\EngineLoop",
+      "GUID": "{606D6590-C0A4-4A08-8733-16E534635B71}",
+      "DurationType": "Infinite"
+     },
+     {
       "Id": "2678880713",
       "Name": "Fire",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Laser\\Fire",
@@ -65,6 +81,15 @@
       "DurationType": "OneShot",
       "DurationMin": "3.79",
       "DurationMax": "3.87"
+     },
+     {
+      "Id": "4085277030",
+      "Name": "Hold_Shield",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Shield\\Hold_Shield",
+      "GUID": "{3A93548A-4028-4501-932E-3EC51F1EE505}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.99",
+      "DurationMax": "7.99"
      },
      {
       "Id": "352728014",
@@ -92,6 +117,15 @@
       "DurationType": "OneShot",
       "DurationMin": "4.76",
       "DurationMax": "11.22"
+     },
+     {
+      "Id": "2405648188",
+      "Name": "Release",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Shield\\Release",
+      "GUID": "{CD6E0738-7BC2-41BB-9A28-375C4311EB29}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.38",
+      "DurationMax": "2.38"
      }
     ],
     "IncludedMemoryFiles": [
@@ -102,16 +136,16 @@
       "Path": "SFX\\Explosions\\Explode 2_10C4C929.wem"
      },
      {
+      "Id": "111027056",
+      "Language": "SFX",
+      "ShortName": "Hold Shield.wav",
+      "Path": "SFX\\Hold Shield_10C4C929.wem"
+     },
+     {
       "Id": "130233522",
       "Language": "SFX",
       "ShortName": "Fast siren hi.wav",
       "Path": "SFX\\Fast siren hi_10C4C929.wem"
-     },
-     {
-      "Id": "136858330",
-      "Language": "SFX",
-      "ShortName": "Boost.wav",
-      "Path": "SFX\\Boost_10C4C929.wem"
      },
      {
       "Id": "180382592",
@@ -132,10 +166,22 @@
       "Path": "SFX\\Boost_End_10C4C929.wem"
      },
      {
+      "Id": "328277594",
+      "Language": "SFX",
+      "ShortName": "Activate.wav",
+      "Path": "SFX\\Activate_10C4C929.wem"
+     },
+     {
       "Id": "332389604",
       "Language": "SFX",
       "ShortName": "Fire_2.wav",
       "Path": "SFX\\Fire_2_10C4C929.wem"
+     },
+     {
+      "Id": "377402952",
+      "Language": "SFX",
+      "ShortName": "Release.wav",
+      "Path": "SFX\\Release_10C4C929.wem"
      },
      {
       "Id": "382916893",
@@ -232,6 +278,12 @@
       "Language": "SFX",
       "ShortName": "Ricochet 4.wav",
       "Path": "SFX\\Ricochet 4_10C4C929.wem"
+     },
+     {
+      "Id": "814047282",
+      "Language": "SFX",
+      "ShortName": "EngineLoop the one.wav",
+      "Path": "SFX\\EngineLoop the one_D79FB2B7.wem"
      },
      {
       "Id": "857593525",
