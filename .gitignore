@@ -14,7 +14,9 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+
+# Seemingly a junk folder
+ThirdParty/
 
 # Fortran module files
 *.mod
@@ -46,8 +48,7 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
-Binaries/*
-Plugins/*/Binaries/*
+
 
 # Builds
 Build/*

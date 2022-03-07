@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{25F709AA-7194-4D98-9CDA-C11A1CF34F61}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{25F709AA-7194-4D98-9CDA-C11A1CF34F61}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Enemy" ID="{21915634-F8EF-417A-8D4D-8082D60D0F73}" ShortID="274747242">
+					<ChildrenList>
+						<Event Name="Death_Explosions" ID="{D8A2BE1D-87A3-44B1-B4CE-DDE4BEB9C2D7}">
+							<ChildrenList>
+								<Action Name="" ID="{C21E3603-F00A-4C82-AA82-6F598AEEA852}" ShortID="971337074">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Explosions" ID="{1ADFB6C9-A24B-4AD0-ABA0-A01C57844303}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Police_Sirens" ID="{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}">
+							<ChildrenList>
+								<Action Name="" ID="{3B1C0FFB-D95A-4410-AD46-EF0BBA0C147C}" ShortID="678850983">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sirens" ID="{CC3C3AA4-9B4E-42F1-BAFD-90F5782EB366}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Laser" ID="{A97E8046-329D-4586-9736-E3666F4BCCF3}" ShortID="132871711">
+							<ChildrenList>
+								<Event Name="Chargeup" ID="{ECBEF176-933D-4694-BA96-7FE05C7C126D}">
+									<ChildrenList>
+										<Action Name="" ID="{C4431B95-3EBC-47A9-BE02-C4EBE654EE97}" ShortID="511953727">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Chargeup" ID="{CD826501-0C2D-464A-9E0E-4A88BBCE9616}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Fire" ID="{6A586B59-5AFD-4F64-B458-6A86658621E2}">
+									<ChildrenList>
+										<Action Name="" ID="{1C467E2A-556C-4C0A-9ADE-3F0EFAE2BD2F}" ShortID="322405674">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fire" ID="{022F2BE6-FADA-4524-B2B1-1EC0D1E61E80}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{27443757-0155-495C-A7D0-2596F7ED2566}" ShortID="737845860">
+					<ChildrenList>
+						<Folder Name="Boost" ID="{79C4A275-1BC6-4125-9572-AAA15940FCFE}" ShortID="1008002841">
+							<ChildrenList>
+								<Event Name="Boost_Start" ID="{C22A86F2-8CEA-4955-8F77-DFDECB74DCA5}">
+									<ChildrenList>
+										<Action Name="" ID="{1E5F2B8E-BDA7-4AAA-BFD1-1ED128072524}" ShortID="722261294">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Boost_Start" ID="{EDB26AAE-6784-4634-A3E4-922E50D3C274}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Boost_End" ID="{74763F5B-D82F-45CE-9104-762DB524E4FE}">
+									<ChildrenList>
+										<Action Name="" ID="{C8476ED3-8E9E-449A-8DD8-81E7D2A34845}" ShortID="287693462">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Boost_End" ID="{94F2DEC7-5508-4290-BEE7-09B4D1086EAE}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Crash" ID="{9F58A9A5-3D43-4151-9BD9-AD4CE71FEB3C}" ShortID="241611991">
+							<ChildrenList>
+								<Event Name="Neon_Signs" ID="{05FAB36D-607F-4B00-AA5C-EC2260AE83A6}">
+									<ChildrenList>
+										<Action Name="" ID="{0203BFD6-6689-4CB3-AD0A-28A77A5FD393}" ShortID="252100733">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Neon Signs" ID="{771D94DB-F164-472B-9278-69208C998210}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Shield" ID="{57353F77-4E4F-4F73-ABFC-EB7076886DFC}" ShortID="838879577">
+							<ChildrenList>
+								<Event Name="Parry" ID="{07AF8F07-11D7-4EBC-BDBC-B8BA786AB42A}">
+									<ChildrenList>
+										<Action Name="" ID="{2B1ED77F-B3B2-438A-842F-440B1C70E68F}" ShortID="258250704">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shield_Parry" ID="{0F64643F-4653-4760-A2F9-8E7A012465CC}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Activate" ID="{95ECDC50-7ECF-4666-9104-40BA59220C0F}">
+									<ChildrenList>
+										<Action Name="" ID="{AFBEB1A1-8CE8-4FEB-9BB0-00D19DFB564B}" ShortID="340575832">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Activate" ID="{5590EBD1-286D-4007-A29C-CC93F302B3CD}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Release" ID="{CD6E0738-7BC2-41BB-9A28-375C4311EB29}">
+									<ChildrenList>
+										<Action Name="" ID="{E04EDB09-5B14-4EAD-8F55-6F150AED8117}" ShortID="1028762647">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Release" ID="{987271D3-00EE-486D-B944-E4621250663E}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Hold_Shield" ID="{3A93548A-4028-4501-932E-3EC51F1EE505}">
+									<ChildrenList>
+										<Action Name="" ID="{7E035D9B-68A9-4E71-8A40-194419AA8BA7}" ShortID="415397340">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Hold Shield" ID="{76ABAFED-10EC-4C43-9166-839E865F903C}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Event Name="EngineLoop" ID="{606D6590-C0A4-4A08-8733-16E534635B71}">
+					<ChildrenList>
+						<Action Name="" ID="{E9ED141E-4550-418A-8348-B846A0C23F4E}" ShortID="1025449558">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EngineLoop" ID="{6357DCC0-FA3D-4F9D-8346-4F1733F63339}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
