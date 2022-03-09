@@ -1,9 +1,0 @@
-{
-	"BuildId": "17155196",
-	"Modules": 
-	{
-		"AkAudio": "UE4Editor-AkAudio-0004.dll",
-		"AkAudioMixer": "UE4Editor-AkAudioMixer-0004.dll",
-		"AudiokineticTools": "UE4Editor-AudiokineticTools-0004.dll"
-	}
-}
