@@ -23,7 +23,7 @@
 *.lai
 *.la
 *.a
-*.lib
+#include lib files for compiling*.lib
 
 # Executables
 *.exe
@@ -47,12 +47,7 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/*/Binaries/*
-
-# Ignore files and folders inside ThirdParty except include folder
-ThirdParty/*
-ThirdParty/*/
-!/include/
+#Plugins/*/Binaries/*
 
 # Builds
 Build/*
