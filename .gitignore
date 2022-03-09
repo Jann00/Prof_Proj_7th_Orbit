@@ -14,11 +14,7 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-
-# Ignore files and folders inside ThirdParty except include folder
-ThirdParty/*
-ThirdParty/*/
-!/include/
+*.dll
 
 # Fortran module files
 *.mod
@@ -49,11 +45,17 @@ ThirdParty/*/
 SourceArt/**/*.png
 SourceArt/**/*.tga
 
+# Binary Files
+Binaries/*
+Plugins/*/Binaries/*
+
+# Ignore files and folders inside ThirdParty except include folder
+ThirdParty/*
+ThirdParty/*/
+!/include/
+
 # Builds
 Build/*
-
-# Binary files
-Binaries/Win64/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
