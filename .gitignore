@@ -15,8 +15,10 @@
 *.so
 *.dylib
 
-# Seemingly a junk folder
-ThirdParty/
+# Ignore files and folders inside ThirdParty except include folder
+ThirdParty/*
+ThirdParty/*/
+!/include/
 
 # Fortran module files
 *.mod
@@ -46,9 +48,6 @@ ThirdParty/
 # Precompiled Assets
 SourceArt/**/*.png
 SourceArt/**/*.tga
-
-# Binary Files
-
 
 # Builds
 Build/*
