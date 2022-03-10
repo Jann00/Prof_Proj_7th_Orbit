@@ -1,7 +1,2 @@
-*Mac/
-*Win32_vc140/
-*Win32_vc150/
-*Win32_vc160/
-x64_vc140/
-x64_vc150/
-x64_vc160/
+*/
+!include/
