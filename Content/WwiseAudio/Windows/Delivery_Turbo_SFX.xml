@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Content\Delivery_Turbo_S_Wwise_Project_Folder</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="1817185043">
+		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="2633295730">
 			<ObjectPath>\SoundBanks\Default Work Unit\Delivery_Turbo_SFX</ObjectPath>
 			<ShortName>Delivery_Turbo_SFX</ShortName>
 			<Path>Delivery_Turbo_SFX.bnk</Path>
@@ -37,6 +37,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1256513485" Name="Bullet" ObjectPath="\Events\Default Work Unit\Enemy\Laser\Bullet" GUID="{CEADD296-67DB-473F-B456-2DD0396EAFE8}" DurationType="OneShot" DurationMin="2.82" DurationMax="2.94"/>
 				<Event Id="4247371150" Name="Chargeup" ObjectPath="\Events\Default Work Unit\Enemy\Laser\Chargeup" GUID="{ECBEF176-933D-4694-BA96-7FE05C7C126D}" DurationType="OneShot" DurationMin="6.91" DurationMax="6.91">
 					<IncludedMemoryFiles>
 						<File Id="451595727" Language="SFX">
@@ -141,6 +142,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Default Work Unit\Player\Crash\Player_Death" GUID="{5A1EC5C0-BE5F-4681-A408-EE0CC8F93A6F}" DurationType="OneShot" DurationMin="5.35" DurationMax="5.35"/>
 				<Event Id="469239576" Name="Police_Sirens" ObjectPath="\Events\Default Work Unit\Enemy\Police_Sirens" GUID="{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}" DurationType="OneShot" DurationMin="4.76" DurationMax="11.22">
 					<IncludedMemoryFiles>
 						<File Id="130233522" Language="SFX">
@@ -193,6 +195,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="896914041" Name="Thuds" ObjectPath="\Events\Default Work Unit\Player\Crash\Thuds" GUID="{72CD66B9-8A12-4D76-908A-6931EA5679E5}" DurationType="OneShot" DurationMin="2.46" DurationMax="2.66"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="87812547" Language="SFX">
@@ -210,6 +213,10 @@
 				<File Id="180382592" Language="SFX">
 					<ShortName>police long.wav</ShortName>
 					<Path>SFX\police long_10C4C929.wem</Path>
+				</File>
+				<File Id="256232688" Language="SFX">
+					<ShortName>Thud4.wav</ShortName>
+					<Path>SFX\Thud4_10C4C929.wem</Path>
 				</File>
 				<File Id="298664394" Language="SFX">
 					<ShortName>Air horn short.wav</ShortName>
@@ -235,6 +242,10 @@
 					<ShortName>Explosions\Explode 3.wav</ShortName>
 					<Path>SFX\Explosions\Explode 3_10C4C929.wem</Path>
 				</File>
+				<File Id="440780343" Language="SFX">
+					<ShortName>Thud\Thud2.wav</ShortName>
+					<Path>SFX\Thud\Thud2_10C4C929.wem</Path>
+				</File>
 				<File Id="451595727" Language="SFX">
 					<ShortName>Charge_2.wav</ShortName>
 					<Path>SFX\Charge_2_10C4C929.wem</Path>
@@ -259,6 +270,10 @@
 					<ShortName>Charge_3.wav</ShortName>
 					<Path>SFX\Charge_3_10C4C929.wem</Path>
 				</File>
+				<File Id="503515879" Language="SFX">
+					<ShortName>Bullet Shot3.wav</ShortName>
+					<Path>SFX\Bullet Shot3_10C4C929.wem</Path>
+				</File>
 				<File Id="511862039" Language="SFX">
 					<ShortName>Siren lo.wav</ShortName>
 					<Path>SFX\Siren lo_10C4C929.wem</Path>
@@ -275,6 +290,22 @@
 					<ShortName>beef siren hi.wav</ShortName>
 					<Path>SFX\beef siren hi_10C4C929.wem</Path>
 				</File>
+				<File Id="568922571" Language="SFX">
+					<ShortName>Hard Crash w Echo.wav</ShortName>
+					<Path>SFX\Hard Crash w Echo_10C4C929.wem</Path>
+				</File>
+				<File Id="598813713" Language="SFX">
+					<ShortName>Bullet Shot.wav</ShortName>
+					<Path>SFX\Bullet Shot_10C4C929.wem</Path>
+				</File>
+				<File Id="621787858" Language="SFX">
+					<ShortName>Thud3.wav</ShortName>
+					<Path>SFX\Thud3_10C4C929.wem</Path>
+				</File>
+				<File Id="695606037" Language="SFX">
+					<ShortName>Bullet Shot2.wav</ShortName>
+					<Path>SFX\Bullet Shot2_10C4C929.wem</Path>
+				</File>
 				<File Id="712531982" Language="SFX">
 					<ShortName>Charge_1.wav</ShortName>
 					<Path>SFX\Charge_1_10C4C929.wem</Path>
@@ -282,6 +313,10 @@
 				<File Id="733703452" Language="SFX">
 					<ShortName>Crashes\Neon signs\Neon Sign 3.wav</ShortName>
 					<Path>SFX\Crashes\Neon signs\Neon Sign 3_10C4C929.wem</Path>
+				</File>
+				<File Id="750526886" Language="SFX">
+					<ShortName>Thud\Thud1.wav</ShortName>
+					<Path>SFX\Thud\Thud1_10C4C929.wem</Path>
 				</File>
 				<File Id="754173065" Language="SFX">
 					<ShortName>Boost_Start.wav</ShortName>
