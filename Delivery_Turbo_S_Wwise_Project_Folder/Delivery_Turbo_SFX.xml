@@ -8,12 +8,12 @@
 		<ExternalSourcesOutputRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Content\Delivery_Turbo_S_Wwise_Project_Folder</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="3373783973">
+		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="2143242030">
 			<ObjectPath>\SoundBanks\Default Work Unit\Delivery_Turbo_SFX</ObjectPath>
 			<ShortName>Delivery_Turbo_SFX</ShortName>
 			<Path>Delivery_Turbo_SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4166407614" Name="Activate" ObjectPath="\Events\Default Work Unit\Player\Shield\Activate" GUID="{95ECDC50-7ECF-4666-9104-40BA59220C0F}" DurationType="OneShot" DurationMin="3.54" DurationMax="3.54"/>
+				<Event Id="4166407614" Name="Activate" ObjectPath="\Events\Default Work Unit\Player\Shield\Activate" GUID="{95ECDC50-7ECF-4666-9104-40BA59220C0F}" DurationType="OneShot" DurationMin="2.54" DurationMax="2.54"/>
 				<Event Id="3092917036" Name="Boost_End" ObjectPath="\Events\Default Work Unit\Player\Boost\Boost_End" GUID="{74763F5B-D82F-45CE-9104-762DB524E4FE}" DurationType="OneShot" DurationMin="3.41" DurationMax="3.41"/>
 				<Event Id="2188867727" Name="Boost_Start" ObjectPath="\Events\Default Work Unit\Player\Boost\Boost_Start" GUID="{C22A86F2-8CEA-4955-8F77-DFDECB74DCA5}" DurationType="OneShot" DurationMin="6.53" DurationMax="6.53"/>
 				<Event Id="1256513485" Name="Bullet" ObjectPath="\Events\Default Work Unit\Enemy\Laser\Bullet" GUID="{CEADD296-67DB-473F-B456-2DD0396EAFE8}" DurationType="OneShot" DurationMin="2.82" DurationMax="2.94"/>
@@ -46,6 +46,10 @@
 					<ShortName>police long.wav</ShortName>
 					<Path>SFX\police long_10C4C929.wem</Path>
 				</File>
+				<File Id="186916736" Language="SFX">
+					<ShortName>Activate2.wav</ShortName>
+					<Path>SFX\Activate2_10C4C929.wem</Path>
+				</File>
 				<File Id="256232688" Language="SFX">
 					<ShortName>Thud4.wav</ShortName>
 					<Path>SFX\Thud4_10C4C929.wem</Path>
@@ -61,10 +65,6 @@
 				<File Id="325336864" Language="SFX">
 					<ShortName>Boost_End.wav</ShortName>
 					<Path>SFX\Boost_End_10C4C929.wem</Path>
-				</File>
-				<File Id="328277594" Language="SFX">
-					<ShortName>Activate.wav</ShortName>
-					<Path>SFX\Activate_10C4C929.wem</Path>
 				</File>
 				<File Id="332389604" Language="SFX">
 					<ShortName>Fire_2.wav</ShortName>
@@ -138,6 +138,10 @@
 					<ShortName>Hard Crash w Echo.wav</ShortName>
 					<Path>SFX\Hard Crash w Echo_10C4C929.wem</Path>
 				</File>
+				<File Id="570202547" Language="SFX">
+					<ShortName>Activate1.wav</ShortName>
+					<Path>SFX\Activate1_10C4C929.wem</Path>
+				</File>
 				<File Id="598813713" Language="SFX">
 					<ShortName>Bullet Shot.wav</ShortName>
 					<Path>SFX\Bullet Shot_10C4C929.wem</Path>
@@ -153,6 +157,10 @@
 				<File Id="712531982" Language="SFX">
 					<ShortName>Charge_1.wav</ShortName>
 					<Path>SFX\Charge_1_10C4C929.wem</Path>
+				</File>
+				<File Id="715432246" Language="SFX">
+					<ShortName>Activate3.wav</ShortName>
+					<Path>SFX\Activate3_10C4C929.wem</Path>
 				</File>
 				<File Id="733703452" Language="SFX">
 					<ShortName>Crashes\Neon signs\Neon Sign 3.wav</ShortName>
