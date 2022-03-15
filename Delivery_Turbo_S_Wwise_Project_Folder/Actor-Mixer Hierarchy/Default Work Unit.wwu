@@ -10,6 +10,14 @@
 								<Folder Name="Neon signs" ID="{EE79665C-ECF5-475B-873E-ABB5CE845EF8}" ShortID="1061753884">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Neon Signs" ID="{771D94DB-F164-472B-9278-69208C998210}" ShortID="628067611">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
@@ -123,6 +131,166 @@
 													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="Neon Sign 2" ID="{1208B63D-A938-491C-89E2-4A990AC627CC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Sound Name="Player Death" ID="{D72D0311-FEA7-4743-AF50-46530853F785}" ShortID="106393304">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hard Crash w Echo" ID="{3824FAB4-5680-4F85-A242-2BC51D3BFDDB}">
+											<Language>SFX</Language>
+											<AudioFile>Hard Crash w Echo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="568922571"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Hard Crash w Echo" ID="{3824FAB4-5680-4F85-A242-2BC51D3BFDDB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Folder Name="Thud" ID="{BAB4F11C-7913-4173-8AF1-E215E2982FC4}" ShortID="228694465">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Thuds" ID="{76118708-A528-4C01-91DE-78F2B30344F5}" ShortID="307240851">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Thud1" ID="{4B4E3130-A48F-43A0-9045-0EAA84867110}" ShortID="384583081">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Thud1" ID="{4228C25F-7D5E-4BF0-8336-4676EA4A355A}">
+															<Language>SFX</Language>
+															<AudioFile>Thud\Thud1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="750526886"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Thud1" ID="{4228C25F-7D5E-4BF0-8336-4676EA4A355A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Thud2" ID="{E21BE7E2-8DFD-4B0C-9342-DEAF4985864E}" ShortID="702864432">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Thud2" ID="{CC74CDAD-4231-4AE7-A892-4D54D0DC946F}">
+															<Language>SFX</Language>
+															<AudioFile>Thud\Thud2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="440780343"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Thud2" ID="{CC74CDAD-4231-4AE7-A892-4D54D0DC946F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Thud3" ID="{30215145-DCF8-4A0F-9B1E-8041694BB987}" ShortID="479521778">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Thud3" ID="{E95708E2-A3E9-40B8-B51C-4CE1D03BCA9E}">
+															<Language>SFX</Language>
+															<AudioFile>Thud3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="621787858"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Thud3" ID="{E95708E2-A3E9-40B8-B51C-4CE1D03BCA9E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Thud4" ID="{85D4926D-4428-40AE-A920-6B726DC1FE15}" ShortID="722451472">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Thud4" ID="{5849B61A-AD2B-4534-AF01-0F97C19B6F02}">
+															<Language>SFX</Language>
+															<AudioFile>Thud4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="256232688"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Thud4" ID="{5849B61A-AD2B-4534-AF01-0F97C19B6F02}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -723,6 +891,9 @@
 						<Folder Name="Lasers" ID="{114E2980-ED34-44C6-89D4-F9B0DC4BD321}" ShortID="1048846606">
 							<ChildrenList>
 								<RandomSequenceContainer Name="Fire" ID="{022F2BE6-FADA-4524-B2B1-1EC0D1E61E80}" ShortID="164966937">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
@@ -805,6 +976,14 @@
 									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Chargeup" ID="{CD826501-0C2D-464A-9E0E-4A88BBCE9616}" ShortID="486911292">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
@@ -886,11 +1065,100 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
+								<Folder Name="Bullets" ID="{B2DA2978-9500-48CA-8F44-B7F637DCC4A8}" ShortID="328502915">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Bullets" ID="{62E69BEF-DF31-455E-9FEF-E16042248C2C}" ShortID="885031056">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Bullet Shot3" ID="{5977B45D-2C6D-44C0-94F2-24BC260CFA13}" ShortID="614527244">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bullet Shot3" ID="{4C5EB438-294F-4484-8824-0BD835EB83B8}">
+															<Language>SFX</Language>
+															<AudioFile>Bullet Shot3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="503515879"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Bullet Shot3" ID="{4C5EB438-294F-4484-8824-0BD835EB83B8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bullet Shot" ID="{4015B1E5-F50A-43DC-955E-55AB79C66A73}" ShortID="367480251">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bullet Shot" ID="{AEEFA07B-2D5E-43A8-B5B9-F655F6744E06}">
+															<Language>SFX</Language>
+															<AudioFile>Bullet Shot.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="598813713"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Bullet Shot" ID="{AEEFA07B-2D5E-43A8-B5B9-F655F6744E06}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bullet Shot2" ID="{70CE9479-BA8F-409F-99D0-C559EF229B22}" ShortID="13177766">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bullet Shot2" ID="{9D703D61-3D0F-4117-B3F7-8D0815F18A18}">
+															<Language>SFX</Language>
+															<AudioFile>Bullet Shot2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="695606037"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Bullet Shot2" ID="{9D703D61-3D0F-4117-B3F7-8D0815F18A18}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Explosions" ID="{84569C75-6C0E-45DF-8ACF-69A2D8FEB4D5}" ShortID="24794443">
 							<ChildrenList>
 								<RandomSequenceContainer Name="Explosions" ID="{1ADFB6C9-A24B-4AD0-ABA0-A01C57844303}" ShortID="835159390">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
