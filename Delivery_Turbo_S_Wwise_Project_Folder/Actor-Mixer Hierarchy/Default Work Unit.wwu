@@ -142,7 +142,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>6</Value>
+												<Value>4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -303,6 +303,13 @@
 						<Folder Name="Shield" ID="{5FB5590D-0E1A-4962-A7C4-FE386211190E}" ShortID="661277312">
 							<ChildrenList>
 								<RandomSequenceContainer Name="Shield_Parry" ID="{0F64643F-4653-4760-A2F9-8E7A012465CC}" ShortID="295486117">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
@@ -407,36 +414,6 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
-								<Sound Name="Activate" ID="{5590EBD1-286D-4007-A29C-CC93F302B3CD}" ShortID="1038726414">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Activate" ID="{DD1A9A12-A51F-402F-AE48-5B4372BB436D}">
-											<Language>SFX</Language>
-											<AudioFile>Activate.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="328277594"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Activate" ID="{DD1A9A12-A51F-402F-AE48-5B4372BB436D}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Release" ID="{987271D3-00EE-486D-B944-E4621250663E}" ShortID="565839796">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
@@ -490,11 +467,107 @@
 										<ActiveSource Name="Hold Shield" ID="{24770DAD-452B-4959-A49B-D455667A60D6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="Shield_Activate" ID="{8A4B45B5-74F1-48C8-AACC-3224EF93CF16}" ShortID="984049353">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Activate1" ID="{77369E4B-33ED-4265-B86B-064B239746ED}" ShortID="667061536">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Activate1" ID="{12D1692D-638C-42A2-BA77-E066F4D78147}">
+													<Language>SFX</Language>
+													<AudioFile>Activate1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="570202547"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Activate1" ID="{12D1692D-638C-42A2-BA77-E066F4D78147}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Activate2" ID="{7705182F-F324-4EB2-B695-68E8FD419C42}" ShortID="633427987">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Activate2" ID="{ECD6E7C4-1BA5-46FE-8135-9B65845282CF}">
+													<Language>SFX</Language>
+													<AudioFile>Activate2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="186916736"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Activate2" ID="{ECD6E7C4-1BA5-46FE-8135-9B65845282CF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Activate3" ID="{39D23139-80F5-4E15-ADC1-6491E0022337}" ShortID="108999496">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Activate3" ID="{826C830F-39E7-43F3-9E8D-11D531EB2F7F}">
+													<Language>SFX</Language>
+													<AudioFile>Activate3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="715432246"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Activate3" ID="{826C830F-39E7-43F3-9E8D-11D531EB2F7F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Boost" ID="{2514023B-9AA4-44B2-89EF-4C626580E70A}" ShortID="586524639">
 							<ChildrenList>
 								<Sound Name="Boost_End" ID="{94F2DEC7-5508-4290-BEE7-09B4D1086EAE}" ShortID="1059989674">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
@@ -529,6 +602,11 @@
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -566,7 +644,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-25</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1068,6 +1146,13 @@
 								<Folder Name="Bullets" ID="{B2DA2978-9500-48CA-8F44-B7F637DCC4A8}" ShortID="328502915">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Bullets" ID="{62E69BEF-DF31-455E-9FEF-E16042248C2C}" ShortID="885031056">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
