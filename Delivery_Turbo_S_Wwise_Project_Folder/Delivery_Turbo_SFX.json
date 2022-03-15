@@ -16,7 +16,7 @@
     "Id": "2117772400",
     "GUID": "{29261A01-C6AC-44C3-8694-B7D78279D781}",
     "Language": "SFX",
-    "Hash": "3935617200",
+    "Hash": "3373783973",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Delivery_Turbo_SFX",
     "ShortName": "Delivery_Turbo_SFX",
     "Path": "Delivery_Turbo_SFX.bnk",
@@ -193,6 +193,12 @@
       "Path": "SFX\\Air horn short_10C4C929.wem"
      },
      {
+      "Id": "310273212",
+      "Language": "SFX",
+      "ShortName": "Cyber_City_Segment.wav",
+      "Path": "SFX\\Cyber_City_Segment_D79FB2B7.wem"
+     },
+     {
       "Id": "325336864",
       "Language": "SFX",
       "ShortName": "Boost_End.wav",
@@ -223,6 +229,12 @@
       "Path": "SFX\\Explosions\\Explode 3_10C4C929.wem"
      },
      {
+      "Id": "390569763",
+      "Language": "SFX",
+      "ShortName": "Main_Menu.wav",
+      "Path": "SFX\\Main_Menu_D79FB2B7.wem"
+     },
+     {
       "Id": "440780343",
       "Language": "SFX",
       "ShortName": "Thud\\Thud2.wav",
@@ -239,6 +251,12 @@
       "Language": "SFX",
       "ShortName": "Fast siren lo.wav",
       "Path": "SFX\\Fast siren lo_10C4C929.wem"
+     },
+     {
+      "Id": "458588020",
+      "Language": "SFX",
+      "ShortName": "Combat_Area_Segment.wav",
+      "Path": "SFX\\Combat_Area_Segment_D79FB2B7.wem"
      },
      {
       "Id": "463505214",
@@ -331,6 +349,12 @@
       "Path": "SFX\\Crashes\\Neon signs\\Neon Sign 3_10C4C929.wem"
      },
      {
+      "Id": "744655709",
+      "Language": "SFX",
+      "ShortName": "Neo_Asia_segment.wav",
+      "Path": "SFX\\Neo_Asia_segment_D79FB2B7.wem"
+     },
+     {
       "Id": "750526886",
       "Language": "SFX",
       "ShortName": "Thud\\Thud1.wav",
@@ -401,6 +425,40 @@
       "Language": "SFX",
       "ShortName": "Fire_1.wav",
       "Path": "SFX\\Fire_1_10C4C929.wem"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3541316773",
+      "Name": "Turbo_Song",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Turbo_Song",
+      "GUID": "{3A196025-52E5-461F-BE18-CA45746B360B}",
+      "Switches": [
+       {
+        "Id": "2005704188",
+        "Name": "Main_Menu",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Turbo_Song\\Main_Menu",
+        "GUID": "{2A1637AA-4B50-423B-9E50-E7819C78306F}"
+       },
+       {
+        "Id": "3940938514",
+        "Name": "Cyber_City",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Turbo_Song\\Cyber_City",
+        "GUID": "{75DAA388-FF9C-4680-BA2E-1BB99365DC58}"
+       },
+       {
+        "Id": "2764240573",
+        "Name": "Combat",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Turbo_Song\\Combat",
+        "GUID": "{E5EBD1F6-C1D7-4ABA-9D43-737147385C61}"
+       },
+       {
+        "Id": "1279708370",
+        "Name": "Neo_Asia",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Turbo_Song\\Neo_Asia",
+        "GUID": "{FC264E5C-A0C2-41E5-9F35-CD5639C36002}"
+       }
+      ]
      }
     ]
    }

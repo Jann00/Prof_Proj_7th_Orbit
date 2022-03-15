@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="3935617200">
+		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="3373783973">
 			<ObjectPath>\SoundBanks\Default Work Unit\Delivery_Turbo_SFX</ObjectPath>
 			<ShortName>Delivery_Turbo_SFX</ShortName>
 			<Path>Delivery_Turbo_SFX.bnk</Path>
@@ -62,6 +62,10 @@
 					<ShortName>Air horn short.wav</ShortName>
 					<Path>SFX\Air horn short_10C4C929.wem</Path>
 				</File>
+				<File Id="310273212" Language="SFX">
+					<ShortName>Cyber_City_Segment.wav</ShortName>
+					<Path>SFX\Cyber_City_Segment_D79FB2B7.wem</Path>
+				</File>
 				<File Id="325336864" Language="SFX">
 					<ShortName>Boost_End.wav</ShortName>
 					<Path>SFX\Boost_End_10C4C929.wem</Path>
@@ -82,6 +86,10 @@
 					<ShortName>Explosions\Explode 3.wav</ShortName>
 					<Path>SFX\Explosions\Explode 3_10C4C929.wem</Path>
 				</File>
+				<File Id="390569763" Language="SFX">
+					<ShortName>Main_Menu.wav</ShortName>
+					<Path>SFX\Main_Menu_D79FB2B7.wem</Path>
+				</File>
 				<File Id="440780343" Language="SFX">
 					<ShortName>Thud\Thud2.wav</ShortName>
 					<Path>SFX\Thud\Thud2_10C4C929.wem</Path>
@@ -93,6 +101,10 @@
 				<File Id="455837388" Language="SFX">
 					<ShortName>Fast siren lo.wav</ShortName>
 					<Path>SFX\Fast siren lo_10C4C929.wem</Path>
+				</File>
+				<File Id="458588020" Language="SFX">
+					<ShortName>Combat_Area_Segment.wav</ShortName>
+					<Path>SFX\Combat_Area_Segment_D79FB2B7.wem</Path>
 				</File>
 				<File Id="463505214" Language="SFX">
 					<ShortName>Siren hi.wav</ShortName>
@@ -154,6 +166,10 @@
 					<ShortName>Crashes\Neon signs\Neon Sign 3.wav</ShortName>
 					<Path>SFX\Crashes\Neon signs\Neon Sign 3_10C4C929.wem</Path>
 				</File>
+				<File Id="744655709" Language="SFX">
+					<ShortName>Neo_Asia_segment.wav</ShortName>
+					<Path>SFX\Neo_Asia_segment_D79FB2B7.wem</Path>
+				</File>
 				<File Id="750526886" Language="SFX">
 					<ShortName>Thud\Thud1.wav</ShortName>
 					<Path>SFX\Thud\Thud1_10C4C929.wem</Path>
@@ -203,6 +219,16 @@
 					<Path>SFX\Fire_1_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+			<SwitchGroups>
+				<SwitchGroup Id="3541316773" Name="Turbo_Song" ObjectPath="\Switches\Default Work Unit\Turbo_Song" GUID="{3A196025-52E5-461F-BE18-CA45746B360B}">
+					<Switches>
+						<Switch Id="2005704188" Name="Main_Menu" ObjectPath="\Switches\Default Work Unit\Turbo_Song\Main_Menu" GUID="{2A1637AA-4B50-423B-9E50-E7819C78306F}"/>
+						<Switch Id="3940938514" Name="Cyber_City" ObjectPath="\Switches\Default Work Unit\Turbo_Song\Cyber_City" GUID="{75DAA388-FF9C-4680-BA2E-1BB99365DC58}"/>
+						<Switch Id="2764240573" Name="Combat" ObjectPath="\Switches\Default Work Unit\Turbo_Song\Combat" GUID="{E5EBD1F6-C1D7-4ABA-9D43-737147385C61}"/>
+						<Switch Id="1279708370" Name="Neo_Asia" ObjectPath="\Switches\Default Work Unit\Turbo_Song\Neo_Asia" GUID="{FC264E5C-A0C2-41E5-9F35-CD5639C36002}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

@@ -15,6 +15,15 @@ Event	ID	Name			Wwise Object Path	Notes
 	4166407614	Activate			\Default Work Unit\Player\Shield\Activate	
 	4247371150	Chargeup			\Default Work Unit\Enemy\Laser\Chargeup	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3541316773	Turbo_Song			\Default Work Unit\Turbo_Song	
+
+Switch	ID	Name	Switch Group			Notes
+	1279708370	Neo_Asia	Turbo_Song			
+	2005704188	Main_Menu	Turbo_Song			
+	2764240573	Combat	Turbo_Song			
+	3940938514	Cyber_City	Turbo_Song			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	87812547	Explode 2	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Explosions\Explode 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Explosions\Explosions\Explode 2		636868
 	111027056	Hold Shield	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Hold Shield_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Shield\Hold Shield		1409500
@@ -22,14 +31,17 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	180382592	police long	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\police long_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Sirens\police long		927928
 	256232688	Thud4	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Thud4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Crashes\Thud\Thuds\Thud4		469288
 	298664394	Air horn short	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Air horn short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Sirens\Air horn short		1421848
+	310273212	Cyber_City_Segment	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Cyber_City_Segment_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Drum n Bass song\Combat\Cyber_City_Segment2\Cyber_City_Segment		6544504
 	325336864	Boost_End	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Boost_End_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Boost\Boost_End		601588
 	328277594	Activate	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Activate_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Shield\Activate		624520
 	332389604	Fire_2	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Fire_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Lasers\Fire\Fire_2		679204
 	377402952	Release	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Release_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Shield\Release		419896
 	382916893	Explode 3	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Explosions\Explode 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Explosions\Explosions\Explode 3		705664
+	390569763	Main_Menu	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Main_Menu_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Drum n Bass song\Main Menu\Main_Menu\Main_Menu		17290792
 	440780343	Thud2	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Thud\Thud2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Crashes\Thud\Thuds\Thud2		435772
 	451595727	Charge_2	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Charge_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Lasers\Chargeup\Charge_2		1218988
 	455837388	Fast siren lo	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Fast siren lo_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Sirens\Fast siren lo		943804
+	458588020	Combat_Area_Segment	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Combat_Area_Segment_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Drum n Bass song\Combat\Combat_Area_Segment\Combat_Area_Segment		5547844
 	463505214	Siren hi	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Siren hi_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Sirens\Siren hi		991432
 	473232844	beef siren lo	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\beef siren lo_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Sirens\beef siren lo		1033768
 	483320932	Neon Sign 4	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Crashes\Neon signs\Neon Sign 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Crashes\Neon signs\Neon Signs\Neon Sign 4		518680
@@ -45,6 +57,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	695606037	Bullet Shot2	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Bullet Shot2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Lasers\Bullets\Bullets\Bullet Shot2		497512
 	712531982	Charge_1	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Charge_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Lasers\Chargeup\Charge_1		1218988
 	733703452	Neon Sign 3	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Crashes\Neon signs\Neon Sign 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Crashes\Neon signs\Neon Signs\Neon Sign 3		518680
+	744655709	Neo_Asia_segment	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Neo_Asia_segment_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Drum n Bass song\Neo Asia\Neo_Asia_segment\Neo_Asia_segment		5029228
 	750526886	Thud1	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Thud\Thud1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Crashes\Thud\Thuds\Thud1		458704
 	754173065	Boost_Start	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Boost_Start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Boost\Boost_Start		1151956
 	756135008	Parry 2	C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\SFX\Ricochet 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Shield\Shield_Parry\Parry 2		495748
