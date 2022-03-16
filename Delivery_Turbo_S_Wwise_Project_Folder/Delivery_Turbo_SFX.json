@@ -16,7 +16,7 @@
     "Id": "2117772400",
     "GUID": "{29261A01-C6AC-44C3-8694-B7D78279D781}",
     "Language": "SFX",
-    "Hash": "2143242030",
+    "Hash": "3171395806",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Delivery_Turbo_SFX",
     "ShortName": "Delivery_Turbo_SFX",
     "Path": "Delivery_Turbo_SFX.bnk",
@@ -80,6 +80,7 @@
       "Name": "EngineLoop",
       "ObjectPath": "\\Events\\Default Work Unit\\EngineLoop",
       "GUID": "{606D6590-C0A4-4A08-8733-16E534635B71}",
+      "MaxAttenuation": "4000.",
       "DurationType": "Infinite"
      },
      {
@@ -132,9 +133,10 @@
       "Name": "Police_Sirens",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Police_Sirens",
       "GUID": "{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}",
+      "MaxAttenuation": "4000.",
       "DurationType": "OneShot",
-      "DurationMin": "4.76",
-      "DurationMax": "11.22"
+      "DurationMin": "5.26",
+      "DurationMax": "5.26"
      },
      {
       "Id": "2405648188",
@@ -144,6 +146,24 @@
       "DurationType": "OneShot",
       "DurationMin": "2.38",
       "DurationMax": "2.38"
+     },
+     {
+      "Id": "1665395876",
+      "Name": "Roadblock_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Roadblock\\Roadblock_End",
+      "GUID": "{B941BC0C-536D-4D48-A456-1D08EC163E53}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.16",
+      "DurationMax": "6.16"
+     },
+     {
+      "Id": "1128715351",
+      "Name": "Roadblock_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Roadblock\\Roadblock_Start",
+      "GUID": "{F21E6C48-218F-4F9D-B075-C69E505548D4}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.01",
+      "DurationMax": "7.01"
      },
      {
       "Id": "896914041",
@@ -156,6 +176,18 @@
      }
     ],
     "IncludedMemoryFiles": [
+     {
+      "Id": "29940325",
+      "Language": "SFX",
+      "ShortName": "SwitchBoost&Shield.wav",
+      "Path": "SFX\\SwitchBoost&Shield_10C4C929.wem"
+     },
+     {
+      "Id": "56578030",
+      "Language": "SFX",
+      "ShortName": "SteamLoop.wav",
+      "Path": "SFX\\SteamLoop_D79FB2B7.wem"
+     },
      {
       "Id": "87812547",
       "Language": "SFX",
@@ -331,6 +363,12 @@
       "Path": "SFX\\Bullet Shot_10C4C929.wem"
      },
      {
+      "Id": "619826987",
+      "Language": "SFX",
+      "ShortName": "339105-Police_siren_-looping_2.wav",
+      "Path": "SFX\\339105-Police_siren_-looping_2_D79FB2B7.wem"
+     },
+     {
       "Id": "621787858",
       "Language": "SFX",
       "ShortName": "Thud3.wav",
@@ -361,6 +399,12 @@
       "Path": "SFX\\Crashes\\Neon signs\\Neon Sign 3_10C4C929.wem"
      },
      {
+      "Id": "735679850",
+      "Language": "SFX",
+      "ShortName": "Column 1.wav",
+      "Path": "SFX\\Column 1_10C4C929.wem"
+     },
+     {
       "Id": "744655709",
       "Language": "SFX",
       "ShortName": "Neo_Asia_segment.wav",
@@ -383,6 +427,12 @@
       "Language": "SFX",
       "ShortName": "Ricochet 2.wav",
       "Path": "SFX\\Ricochet 2_10C4C929.wem"
+     },
+     {
+      "Id": "773357672",
+      "Language": "SFX",
+      "ShortName": "End.wav",
+      "Path": "SFX\\End_10C4C929.wem"
      },
      {
       "Id": "804551779",
