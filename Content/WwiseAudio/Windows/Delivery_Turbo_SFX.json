@@ -16,7 +16,7 @@
     "Id": "2117772400",
     "GUID": "{29261A01-C6AC-44C3-8694-B7D78279D781}",
     "Language": "SFX",
-    "Hash": "3175924763",
+    "Hash": "963004738",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Delivery_Turbo_SFX",
     "ShortName": "Delivery_Turbo_SFX",
     "Path": "Delivery_Turbo_SFX.bnk",
@@ -156,6 +156,7 @@
       "Name": "EngineLoop",
       "ObjectPath": "\\Events\\Default Work Unit\\EngineLoop",
       "GUID": "{606D6590-C0A4-4A08-8733-16E534635B71}",
+      "MaxAttenuation": "4000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -296,70 +297,16 @@
       "Name": "Police_Sirens",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Police_Sirens",
       "GUID": "{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}",
-      "MaxAttenuation": "80.",
+      "MaxAttenuation": "4000.",
       "DurationType": "OneShot",
-      "DurationMin": "4.76",
-      "DurationMax": "11.22",
+      "DurationMin": "5.26",
+      "DurationMax": "5.26",
       "IncludedMemoryFiles": [
-       {
-        "Id": "130233522",
-        "Language": "SFX",
-        "ShortName": "Fast siren hi.wav",
-        "Path": "SFX\\Fast siren hi_10C4C929.wem"
-       },
        {
         "Id": "180382592",
         "Language": "SFX",
         "ShortName": "police long.wav",
         "Path": "SFX\\police long_10C4C929.wem"
-       },
-       {
-        "Id": "298664394",
-        "Language": "SFX",
-        "ShortName": "Air horn short.wav",
-        "Path": "SFX\\Air horn short_10C4C929.wem"
-       },
-       {
-        "Id": "455837388",
-        "Language": "SFX",
-        "ShortName": "Fast siren lo.wav",
-        "Path": "SFX\\Fast siren lo_10C4C929.wem"
-       },
-       {
-        "Id": "463505214",
-        "Language": "SFX",
-        "ShortName": "Siren hi.wav",
-        "Path": "SFX\\Siren hi_10C4C929.wem"
-       },
-       {
-        "Id": "473232844",
-        "Language": "SFX",
-        "ShortName": "beef siren lo.wav",
-        "Path": "SFX\\beef siren lo_10C4C929.wem"
-       },
-       {
-        "Id": "511862039",
-        "Language": "SFX",
-        "ShortName": "Siren lo.wav",
-        "Path": "SFX\\Siren lo_10C4C929.wem"
-       },
-       {
-        "Id": "567191424",
-        "Language": "SFX",
-        "ShortName": "beef siren hi.wav",
-        "Path": "SFX\\beef siren hi_10C4C929.wem"
-       },
-       {
-        "Id": "857593525",
-        "Language": "SFX",
-        "ShortName": "Air horn long.wav",
-        "Path": "SFX\\Air horn long_10C4C929.wem"
-       },
-       {
-        "Id": "913418593",
-        "Language": "SFX",
-        "ShortName": "police short.wav",
-        "Path": "SFX\\police short_10C4C929.wem"
        }
       ]
      },
