@@ -147,10 +147,10 @@
 								</Event>
 								<Event Name="Activate" ID="{95ECDC50-7ECF-4666-9104-40BA59220C0F}">
 									<ChildrenList>
-										<Action Name="" ID="{AFBEB1A1-8CE8-4FEB-9BB0-00D19DFB564B}" ShortID="340575832">
+										<Action Name="" ID="{619E9E61-1664-40BE-A755-DD1F4BF14F6D}" ShortID="854192205">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Activate" ID="{5590EBD1-286D-4007-A29C-CC93F302B3CD}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+													<ObjectRef Name="Shield_Activate" ID="{8A4B45B5-74F1-48C8-AACC-3224EF93CF16}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -193,6 +193,36 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Environment" ID="{CEF5DFE8-5168-404A-8220-7DA271E280DE}" ShortID="758456792">
+					<ChildrenList>
+						<Folder Name="Roadblock" ID="{456A8470-4A2A-4574-BC28-EA89186803BD}" ShortID="1058555362">
+							<ChildrenList>
+								<Event Name="Roadblock_Start" ID="{F21E6C48-218F-4F9D-B075-C69E505548D4}">
+									<ChildrenList>
+										<Action Name="" ID="{B2C84438-EF91-409F-9EA5-29A989943875}" ShortID="643572422">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Start" ID="{C3B42BD4-C605-4BC7-8F3C-624FD6F4D0D1}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Roadblock_End" ID="{B941BC0C-536D-4D48-A456-1D08EC163E53}">
+									<ChildrenList>
+										<Action Name="" ID="{04045396-BBFD-4E04-BFB7-B28AA6977B5A}" ShortID="223337337">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="End" ID="{6B00A03E-BA37-4DAC-9514-671900021FC7}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

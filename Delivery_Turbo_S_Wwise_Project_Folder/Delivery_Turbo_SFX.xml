@@ -8,28 +8,38 @@
 		<ExternalSourcesOutputRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Content\Delivery_Turbo_S_Wwise_Project_Folder</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="3935617200">
+		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="3171395806">
 			<ObjectPath>\SoundBanks\Default Work Unit\Delivery_Turbo_SFX</ObjectPath>
 			<ShortName>Delivery_Turbo_SFX</ShortName>
 			<Path>Delivery_Turbo_SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4166407614" Name="Activate" ObjectPath="\Events\Default Work Unit\Player\Shield\Activate" GUID="{95ECDC50-7ECF-4666-9104-40BA59220C0F}" DurationType="OneShot" DurationMin="3.54" DurationMax="3.54"/>
+				<Event Id="4166407614" Name="Activate" ObjectPath="\Events\Default Work Unit\Player\Shield\Activate" GUID="{95ECDC50-7ECF-4666-9104-40BA59220C0F}" DurationType="OneShot" DurationMin="2.54" DurationMax="2.54"/>
 				<Event Id="3092917036" Name="Boost_End" ObjectPath="\Events\Default Work Unit\Player\Boost\Boost_End" GUID="{74763F5B-D82F-45CE-9104-762DB524E4FE}" DurationType="OneShot" DurationMin="3.41" DurationMax="3.41"/>
 				<Event Id="2188867727" Name="Boost_Start" ObjectPath="\Events\Default Work Unit\Player\Boost\Boost_Start" GUID="{C22A86F2-8CEA-4955-8F77-DFDECB74DCA5}" DurationType="OneShot" DurationMin="6.53" DurationMax="6.53"/>
 				<Event Id="1256513485" Name="Bullet" ObjectPath="\Events\Default Work Unit\Enemy\Laser\Bullet" GUID="{CEADD296-67DB-473F-B456-2DD0396EAFE8}" DurationType="OneShot" DurationMin="2.82" DurationMax="2.94"/>
 				<Event Id="4247371150" Name="Chargeup" ObjectPath="\Events\Default Work Unit\Enemy\Laser\Chargeup" GUID="{ECBEF176-933D-4694-BA96-7FE05C7C126D}" DurationType="OneShot" DurationMin="6.91" DurationMax="6.91"/>
 				<Event Id="2584173288" Name="Death_Explosions" ObjectPath="\Events\Default Work Unit\Enemy\Death_Explosions" GUID="{D8A2BE1D-87A3-44B1-B4CE-DDE4BEB9C2D7}" DurationType="OneShot" DurationMin="3.61" DurationMax="4."/>
-				<Event Id="1526952917" Name="EngineLoop" ObjectPath="\Events\Default Work Unit\EngineLoop" GUID="{606D6590-C0A4-4A08-8733-16E534635B71}" DurationType="Infinite"/>
+				<Event Id="1526952917" Name="EngineLoop" ObjectPath="\Events\Default Work Unit\EngineLoop" GUID="{606D6590-C0A4-4A08-8733-16E534635B71}" MaxAttenuation="4000." DurationType="Infinite"/>
 				<Event Id="2678880713" Name="Fire" ObjectPath="\Events\Default Work Unit\Enemy\Laser\Fire" GUID="{6A586B59-5AFD-4F64-B458-6A86658621E2}" DurationType="OneShot" DurationMin="3.79" DurationMax="3.87"/>
 				<Event Id="4085277030" Name="Hold_Shield" ObjectPath="\Events\Default Work Unit\Player\Shield\Hold_Shield" GUID="{3A93548A-4028-4501-932E-3EC51F1EE505}" DurationType="OneShot" DurationMin="7.99" DurationMax="7.99"/>
 				<Event Id="352728014" Name="Neon_Signs" ObjectPath="\Events\Default Work Unit\Player\Crash\Neon_Signs" GUID="{05FAB36D-607F-4B00-AA5C-EC2260AE83A6}" DurationType="OneShot" DurationMin="2.92" DurationMax="3.15"/>
 				<Event Id="3076648345" Name="Parry" ObjectPath="\Events\Default Work Unit\Player\Shield\Parry" GUID="{07AF8F07-11D7-4EBC-BDBC-B8BA786AB42A}" DurationType="OneShot" DurationMin="2.72" DurationMax="3.04"/>
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Default Work Unit\Player\Crash\Player_Death" GUID="{5A1EC5C0-BE5F-4681-A408-EE0CC8F93A6F}" DurationType="OneShot" DurationMin="5.35" DurationMax="5.35"/>
-				<Event Id="469239576" Name="Police_Sirens" ObjectPath="\Events\Default Work Unit\Enemy\Police_Sirens" GUID="{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}" DurationType="OneShot" DurationMin="4.76" DurationMax="11.22"/>
+				<Event Id="469239576" Name="Police_Sirens" ObjectPath="\Events\Default Work Unit\Enemy\Police_Sirens" GUID="{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}" MaxAttenuation="4000." DurationType="OneShot" DurationMin="5.26" DurationMax="5.26"/>
 				<Event Id="2405648188" Name="Release" ObjectPath="\Events\Default Work Unit\Player\Shield\Release" GUID="{CD6E0738-7BC2-41BB-9A28-375C4311EB29}" DurationType="OneShot" DurationMin="2.38" DurationMax="2.38"/>
+				<Event Id="1665395876" Name="Roadblock_End" ObjectPath="\Events\Default Work Unit\Environment\Roadblock\Roadblock_End" GUID="{B941BC0C-536D-4D48-A456-1D08EC163E53}" DurationType="OneShot" DurationMin="6.16" DurationMax="6.16"/>
+				<Event Id="1128715351" Name="Roadblock_Start" ObjectPath="\Events\Default Work Unit\Environment\Roadblock\Roadblock_Start" GUID="{F21E6C48-218F-4F9D-B075-C69E505548D4}" DurationType="OneShot" DurationMin="7.01" DurationMax="7.01"/>
 				<Event Id="896914041" Name="Thuds" ObjectPath="\Events\Default Work Unit\Player\Crash\Thuds" GUID="{72CD66B9-8A12-4D76-908A-6931EA5679E5}" DurationType="OneShot" DurationMin="2.46" DurationMax="2.66"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="29940325" Language="SFX">
+					<ShortName>SwitchBoost&amp;Shield.wav</ShortName>
+					<Path>SFX\SwitchBoost&amp;Shield_10C4C929.wem</Path>
+				</File>
+				<File Id="56578030" Language="SFX">
+					<ShortName>SteamLoop.wav</ShortName>
+					<Path>SFX\SteamLoop_D79FB2B7.wem</Path>
+				</File>
 				<File Id="87812547" Language="SFX">
 					<ShortName>Explosions\Explode 2.wav</ShortName>
 					<Path>SFX\Explosions\Explode 2_10C4C929.wem</Path>
@@ -46,6 +56,10 @@
 					<ShortName>police long.wav</ShortName>
 					<Path>SFX\police long_10C4C929.wem</Path>
 				</File>
+				<File Id="186916736" Language="SFX">
+					<ShortName>Activate2.wav</ShortName>
+					<Path>SFX\Activate2_10C4C929.wem</Path>
+				</File>
 				<File Id="256232688" Language="SFX">
 					<ShortName>Thud4.wav</ShortName>
 					<Path>SFX\Thud4_10C4C929.wem</Path>
@@ -54,13 +68,13 @@
 					<ShortName>Air horn short.wav</ShortName>
 					<Path>SFX\Air horn short_10C4C929.wem</Path>
 				</File>
+				<File Id="310273212" Language="SFX">
+					<ShortName>Cyber_City_Segment.wav</ShortName>
+					<Path>SFX\Cyber_City_Segment_D79FB2B7.wem</Path>
+				</File>
 				<File Id="325336864" Language="SFX">
 					<ShortName>Boost_End.wav</ShortName>
 					<Path>SFX\Boost_End_10C4C929.wem</Path>
-				</File>
-				<File Id="328277594" Language="SFX">
-					<ShortName>Activate.wav</ShortName>
-					<Path>SFX\Activate_10C4C929.wem</Path>
 				</File>
 				<File Id="332389604" Language="SFX">
 					<ShortName>Fire_2.wav</ShortName>
@@ -74,6 +88,10 @@
 					<ShortName>Explosions\Explode 3.wav</ShortName>
 					<Path>SFX\Explosions\Explode 3_10C4C929.wem</Path>
 				</File>
+				<File Id="390569763" Language="SFX">
+					<ShortName>Main_Menu.wav</ShortName>
+					<Path>SFX\Main_Menu_D79FB2B7.wem</Path>
+				</File>
 				<File Id="440780343" Language="SFX">
 					<ShortName>Thud\Thud2.wav</ShortName>
 					<Path>SFX\Thud\Thud2_10C4C929.wem</Path>
@@ -85,6 +103,10 @@
 				<File Id="455837388" Language="SFX">
 					<ShortName>Fast siren lo.wav</ShortName>
 					<Path>SFX\Fast siren lo_10C4C929.wem</Path>
+				</File>
+				<File Id="458588020" Language="SFX">
+					<ShortName>Combat_Area_Segment.wav</ShortName>
+					<Path>SFX\Combat_Area_Segment_D79FB2B7.wem</Path>
 				</File>
 				<File Id="463505214" Language="SFX">
 					<ShortName>Siren hi.wav</ShortName>
@@ -126,9 +148,17 @@
 					<ShortName>Hard Crash w Echo.wav</ShortName>
 					<Path>SFX\Hard Crash w Echo_10C4C929.wem</Path>
 				</File>
+				<File Id="570202547" Language="SFX">
+					<ShortName>Activate1.wav</ShortName>
+					<Path>SFX\Activate1_10C4C929.wem</Path>
+				</File>
 				<File Id="598813713" Language="SFX">
 					<ShortName>Bullet Shot.wav</ShortName>
 					<Path>SFX\Bullet Shot_10C4C929.wem</Path>
+				</File>
+				<File Id="619826987" Language="SFX">
+					<ShortName>339105-Police_siren_-looping_2.wav</ShortName>
+					<Path>SFX\339105-Police_siren_-looping_2_D79FB2B7.wem</Path>
 				</File>
 				<File Id="621787858" Language="SFX">
 					<ShortName>Thud3.wav</ShortName>
@@ -142,9 +172,21 @@
 					<ShortName>Charge_1.wav</ShortName>
 					<Path>SFX\Charge_1_10C4C929.wem</Path>
 				</File>
+				<File Id="715432246" Language="SFX">
+					<ShortName>Activate3.wav</ShortName>
+					<Path>SFX\Activate3_10C4C929.wem</Path>
+				</File>
 				<File Id="733703452" Language="SFX">
 					<ShortName>Crashes\Neon signs\Neon Sign 3.wav</ShortName>
 					<Path>SFX\Crashes\Neon signs\Neon Sign 3_10C4C929.wem</Path>
+				</File>
+				<File Id="735679850" Language="SFX">
+					<ShortName>Column 1.wav</ShortName>
+					<Path>SFX\Column 1_10C4C929.wem</Path>
+				</File>
+				<File Id="744655709" Language="SFX">
+					<ShortName>Neo_Asia_segment.wav</ShortName>
+					<Path>SFX\Neo_Asia_segment_D79FB2B7.wem</Path>
 				</File>
 				<File Id="750526886" Language="SFX">
 					<ShortName>Thud\Thud1.wav</ShortName>
@@ -157,6 +199,10 @@
 				<File Id="756135008" Language="SFX">
 					<ShortName>Ricochet 2.wav</ShortName>
 					<Path>SFX\Ricochet 2_10C4C929.wem</Path>
+				</File>
+				<File Id="773357672" Language="SFX">
+					<ShortName>End.wav</ShortName>
+					<Path>SFX\End_10C4C929.wem</Path>
 				</File>
 				<File Id="804551779" Language="SFX">
 					<ShortName>Ricochet 4.wav</ShortName>
@@ -195,6 +241,16 @@
 					<Path>SFX\Fire_1_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+			<SwitchGroups>
+				<SwitchGroup Id="3541316773" Name="Turbo_Song" ObjectPath="\Switches\Default Work Unit\Turbo_Song" GUID="{3A196025-52E5-461F-BE18-CA45746B360B}">
+					<Switches>
+						<Switch Id="2005704188" Name="Main_Menu" ObjectPath="\Switches\Default Work Unit\Turbo_Song\Main_Menu" GUID="{2A1637AA-4B50-423B-9E50-E7819C78306F}"/>
+						<Switch Id="3940938514" Name="Cyber_City" ObjectPath="\Switches\Default Work Unit\Turbo_Song\Cyber_City" GUID="{75DAA388-FF9C-4680-BA2E-1BB99365DC58}"/>
+						<Switch Id="2764240573" Name="Combat" ObjectPath="\Switches\Default Work Unit\Turbo_Song\Combat" GUID="{E5EBD1F6-C1D7-4ABA-9D43-737147385C61}"/>
+						<Switch Id="1279708370" Name="Neo_Asia" ObjectPath="\Switches\Default Work Unit\Turbo_Song\Neo_Asia" GUID="{FC264E5C-A0C2-41E5-9F35-CD5639C36002}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
