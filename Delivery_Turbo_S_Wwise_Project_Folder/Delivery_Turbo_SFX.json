@@ -16,7 +16,7 @@
     "Id": "2117772400",
     "GUID": "{29261A01-C6AC-44C3-8694-B7D78279D781}",
     "Language": "SFX",
-    "Hash": "2143242030",
+    "Hash": "1956643546",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Delivery_Turbo_SFX",
     "ShortName": "Delivery_Turbo_SFX",
     "Path": "Delivery_Turbo_SFX.bnk",
@@ -132,6 +132,7 @@
       "Name": "Police_Sirens",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Police_Sirens",
       "GUID": "{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}",
+      "MaxAttenuation": "80.",
       "DurationType": "OneShot",
       "DurationMin": "4.76",
       "DurationMax": "11.22"

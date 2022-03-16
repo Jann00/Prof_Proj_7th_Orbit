@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="2143242030">
+		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="1956643546">
 			<ObjectPath>\SoundBanks\Default Work Unit\Delivery_Turbo_SFX</ObjectPath>
 			<ShortName>Delivery_Turbo_SFX</ShortName>
 			<Path>Delivery_Turbo_SFX.bnk</Path>
@@ -33,7 +33,7 @@
 				<Event Id="352728014" Name="Neon_Signs" ObjectPath="\Events\Default Work Unit\Player\Crash\Neon_Signs" GUID="{05FAB36D-607F-4B00-AA5C-EC2260AE83A6}" DurationType="OneShot" DurationMin="2.92" DurationMax="3.15"/>
 				<Event Id="3076648345" Name="Parry" ObjectPath="\Events\Default Work Unit\Player\Shield\Parry" GUID="{07AF8F07-11D7-4EBC-BDBC-B8BA786AB42A}" DurationType="OneShot" DurationMin="2.72" DurationMax="3.04"/>
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Default Work Unit\Player\Crash\Player_Death" GUID="{5A1EC5C0-BE5F-4681-A408-EE0CC8F93A6F}" DurationType="OneShot" DurationMin="5.35" DurationMax="5.35"/>
-				<Event Id="469239576" Name="Police_Sirens" ObjectPath="\Events\Default Work Unit\Enemy\Police_Sirens" GUID="{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}" DurationType="OneShot" DurationMin="4.76" DurationMax="11.22"/>
+				<Event Id="469239576" Name="Police_Sirens" ObjectPath="\Events\Default Work Unit\Enemy\Police_Sirens" GUID="{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}" MaxAttenuation="80." DurationType="OneShot" DurationMin="4.76" DurationMax="11.22"/>
 				<Event Id="2405648188" Name="Release" ObjectPath="\Events\Default Work Unit\Player\Shield\Release" GUID="{CD6E0738-7BC2-41BB-9A28-375C4311EB29}" DurationType="OneShot" DurationMin="2.38" DurationMax="2.38"/>
 				<Event Id="896914041" Name="Thuds" ObjectPath="\Events\Default Work Unit\Player\Crash\Thuds" GUID="{72CD66B9-8A12-4D76-908A-6931EA5679E5}" DurationType="OneShot" DurationMin="2.46" DurationMax="2.66"/>
 			</IncludedEvents>

@@ -5,9 +5,9 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "D:\\Users\\User\\Documents\\GitHub\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
-   "SourceFilesRoot": "D:\\Users\\User\\Documents\\GitHub\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Users\\User\\Documents\\GitHub\\Prof_Proj_7th_Orbit\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
+   "SourceFilesRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
    "ExternalSourcesOutputRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Content\\Delivery_Turbo_S_Wwise_Project_Folder"
   },
@@ -16,7 +16,7 @@
     "Id": "2117772400",
     "GUID": "{29261A01-C6AC-44C3-8694-B7D78279D781}",
     "Language": "SFX",
-    "Hash": "2633295730",
+    "Hash": "3175924763",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Delivery_Turbo_SFX",
     "ShortName": "Delivery_Turbo_SFX",
     "Path": "Delivery_Turbo_SFX.bnk",
@@ -27,14 +27,26 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Shield\\Activate",
       "GUID": "{95ECDC50-7ECF-4666-9104-40BA59220C0F}",
       "DurationType": "OneShot",
-      "DurationMin": "3.54",
-      "DurationMax": "3.54",
+      "DurationMin": "2.54",
+      "DurationMax": "2.54",
       "IncludedMemoryFiles": [
        {
-        "Id": "328277594",
+        "Id": "186916736",
         "Language": "SFX",
-        "ShortName": "Activate.wav",
-        "Path": "SFX\\Activate_10C4C929.wem"
+        "ShortName": "Activate2.wav",
+        "Path": "SFX\\Activate2_10C4C929.wem"
+       },
+       {
+        "Id": "570202547",
+        "Language": "SFX",
+        "ShortName": "Activate1.wav",
+        "Path": "SFX\\Activate1_10C4C929.wem"
+       },
+       {
+        "Id": "715432246",
+        "Language": "SFX",
+        "ShortName": "Activate3.wav",
+        "Path": "SFX\\Activate3_10C4C929.wem"
        }
       ]
      },
@@ -284,6 +296,7 @@
       "Name": "Police_Sirens",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Police_Sirens",
       "GUID": "{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}",
+      "MaxAttenuation": "80.",
       "DurationType": "OneShot",
       "DurationMin": "4.76",
       "DurationMax": "11.22",
@@ -403,6 +416,12 @@
       "Path": "SFX\\police long_10C4C929.wem"
      },
      {
+      "Id": "186916736",
+      "Language": "SFX",
+      "ShortName": "Activate2.wav",
+      "Path": "SFX\\Activate2_10C4C929.wem"
+     },
+     {
       "Id": "256232688",
       "Language": "SFX",
       "ShortName": "Thud4.wav",
@@ -415,16 +434,16 @@
       "Path": "SFX\\Air horn short_10C4C929.wem"
      },
      {
+      "Id": "310273212",
+      "Language": "SFX",
+      "ShortName": "Cyber_City_Segment.wav",
+      "Path": "SFX\\Cyber_City_Segment_D79FB2B7.wem"
+     },
+     {
       "Id": "325336864",
       "Language": "SFX",
       "ShortName": "Boost_End.wav",
       "Path": "SFX\\Boost_End_10C4C929.wem"
-     },
-     {
-      "Id": "328277594",
-      "Language": "SFX",
-      "ShortName": "Activate.wav",
-      "Path": "SFX\\Activate_10C4C929.wem"
      },
      {
       "Id": "332389604",
@@ -445,6 +464,12 @@
       "Path": "SFX\\Explosions\\Explode 3_10C4C929.wem"
      },
      {
+      "Id": "390569763",
+      "Language": "SFX",
+      "ShortName": "Main_Menu.wav",
+      "Path": "SFX\\Main_Menu_D79FB2B7.wem"
+     },
+     {
       "Id": "440780343",
       "Language": "SFX",
       "ShortName": "Thud\\Thud2.wav",
@@ -461,6 +486,12 @@
       "Language": "SFX",
       "ShortName": "Fast siren lo.wav",
       "Path": "SFX\\Fast siren lo_10C4C929.wem"
+     },
+     {
+      "Id": "458588020",
+      "Language": "SFX",
+      "ShortName": "Combat_Area_Segment.wav",
+      "Path": "SFX\\Combat_Area_Segment_D79FB2B7.wem"
      },
      {
       "Id": "463505214",
@@ -523,6 +554,12 @@
       "Path": "SFX\\Hard Crash w Echo_10C4C929.wem"
      },
      {
+      "Id": "570202547",
+      "Language": "SFX",
+      "ShortName": "Activate1.wav",
+      "Path": "SFX\\Activate1_10C4C929.wem"
+     },
+     {
       "Id": "598813713",
       "Language": "SFX",
       "ShortName": "Bullet Shot.wav",
@@ -547,10 +584,22 @@
       "Path": "SFX\\Charge_1_10C4C929.wem"
      },
      {
+      "Id": "715432246",
+      "Language": "SFX",
+      "ShortName": "Activate3.wav",
+      "Path": "SFX\\Activate3_10C4C929.wem"
+     },
+     {
       "Id": "733703452",
       "Language": "SFX",
       "ShortName": "Crashes\\Neon signs\\Neon Sign 3.wav",
       "Path": "SFX\\Crashes\\Neon signs\\Neon Sign 3_10C4C929.wem"
+     },
+     {
+      "Id": "744655709",
+      "Language": "SFX",
+      "ShortName": "Neo_Asia_segment.wav",
+      "Path": "SFX\\Neo_Asia_segment_D79FB2B7.wem"
      },
      {
       "Id": "750526886",
@@ -623,6 +672,40 @@
       "Language": "SFX",
       "ShortName": "Fire_1.wav",
       "Path": "SFX\\Fire_1_10C4C929.wem"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3541316773",
+      "Name": "Turbo_Song",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Turbo_Song",
+      "GUID": "{3A196025-52E5-461F-BE18-CA45746B360B}",
+      "Switches": [
+       {
+        "Id": "2005704188",
+        "Name": "Main_Menu",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Turbo_Song\\Main_Menu",
+        "GUID": "{2A1637AA-4B50-423B-9E50-E7819C78306F}"
+       },
+       {
+        "Id": "3940938514",
+        "Name": "Cyber_City",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Turbo_Song\\Cyber_City",
+        "GUID": "{75DAA388-FF9C-4680-BA2E-1BB99365DC58}"
+       },
+       {
+        "Id": "2764240573",
+        "Name": "Combat",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Turbo_Song\\Combat",
+        "GUID": "{E5EBD1F6-C1D7-4ABA-9D43-737147385C61}"
+       },
+       {
+        "Id": "1279708370",
+        "Name": "Neo_Asia",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Turbo_Song\\Neo_Asia",
+        "GUID": "{FC264E5C-A0C2-41E5-9F35-CD5639C36002}"
+       }
+      ]
      }
     ]
    }
