@@ -3466,19 +3466,7 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/Auro.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/iZotope.dll",
-			"Type": "NonUFS"
-		},
-		{
 			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/MasteringSuite.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/McDSP.dll",
 			"Type": "NonUFS"
 		},
 		{
