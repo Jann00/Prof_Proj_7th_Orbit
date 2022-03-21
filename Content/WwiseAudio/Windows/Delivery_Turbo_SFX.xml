@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Content\Delivery_Turbo_S_Wwise_Project_Folder</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="2633295730">
+		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="3050102957">
 			<ObjectPath>\SoundBanks\Default Work Unit\Delivery_Turbo_SFX</ObjectPath>
 			<ShortName>Delivery_Turbo_SFX</ShortName>
 			<Path>Delivery_Turbo_SFX.bnk</Path>
