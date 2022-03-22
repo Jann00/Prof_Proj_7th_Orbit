@@ -5,9 +5,9 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
-   "SourceFilesRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "D:\\Users\\User\\Documents\\GitHub\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
+   "SourceFilesRoot": "D:\\Users\\User\\Documents\\GitHub\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Users\\User\\Documents\\GitHub\\Prof_Proj_7th_Orbit\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
    "ExternalSourcesOutputRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Content\\Delivery_Turbo_S_Wwise_Project_Folder"
   },
@@ -16,7 +16,7 @@
     "Id": "2117772400",
     "GUID": "{29261A01-C6AC-44C3-8694-B7D78279D781}",
     "Language": "SFX",
-    "Hash": "963004738",
+    "Hash": "185177034",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Delivery_Turbo_SFX",
     "ShortName": "Delivery_Turbo_SFX",
     "Path": "Delivery_Turbo_SFX.bnk",
@@ -284,6 +284,76 @@
       ]
      },
      {
+      "Id": "2932040671",
+      "Name": "Play_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
+      "GUID": "{6A631888-7CC2-47E7-8CB7-1A337D210976}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "310273212",
+        "Language": "SFX",
+        "ShortName": "Cyber_City_Segment.wav",
+        "Path": "SFX\\Cyber_City_Segment_D79FB2B7.wem"
+       },
+       {
+        "Id": "390569763",
+        "Language": "SFX",
+        "ShortName": "Main_Menu.wav",
+        "Path": "SFX\\Main_Menu_D79FB2B7.wem"
+       },
+       {
+        "Id": "458588020",
+        "Language": "SFX",
+        "ShortName": "Combat_Area_Segment.wav",
+        "Path": "SFX\\Combat_Area_Segment_D79FB2B7.wem"
+       },
+       {
+        "Id": "744655709",
+        "Language": "SFX",
+        "ShortName": "Neo_Asia_segment.wav",
+        "Path": "SFX\\Neo_Asia_segment_D79FB2B7.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{E5EBD1F6-C1D7-4ABA-9D43-737147385C61}",
+        "Media": [
+         {
+          "Id": "310273212"
+         },
+         {
+          "Id": "458588020"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{2A1637AA-4B50-423B-9E50-E7819C78306F}",
+        "Media": [
+         {
+          "Id": "390569763"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{FC264E5C-A0C2-41E5-9F35-CD5639C36002}",
+        "Media": [
+         {
+          "Id": "744655709"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{75DAA388-FF9C-4680-BA2E-1BB99365DC58}",
+        "Media": [
+         {
+          "Id": "310273212"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "3083087645",
       "Name": "Player_Death",
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Crash\\Player_Death",
@@ -328,6 +398,24 @@
       ]
      },
      {
+      "Id": "1665395876",
+      "Name": "Roadblock_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Roadblock\\Roadblock_End",
+      "GUID": "{B941BC0C-536D-4D48-A456-1D08EC163E53}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.16",
+      "DurationMax": "6.16"
+     },
+     {
+      "Id": "1128715351",
+      "Name": "Roadblock_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Roadblock\\Roadblock_Start",
+      "GUID": "{F21E6C48-218F-4F9D-B075-C69E505548D4}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.01",
+      "DurationMax": "7.01"
+     },
+     {
       "Id": "896914041",
       "Name": "Thuds",
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Crash\\Thuds",
@@ -338,6 +426,18 @@
      }
     ],
     "IncludedMemoryFiles": [
+     {
+      "Id": "29940325",
+      "Language": "SFX",
+      "ShortName": "SwitchBoost&Shield.wav",
+      "Path": "SFX\\SwitchBoost&Shield_10C4C929.wem"
+     },
+     {
+      "Id": "56578030",
+      "Language": "SFX",
+      "ShortName": "SteamLoop.wav",
+      "Path": "SFX\\SteamLoop_D79FB2B7.wem"
+     },
      {
       "Id": "87812547",
       "Language": "SFX",
@@ -513,6 +613,12 @@
       "Path": "SFX\\Bullet Shot_10C4C929.wem"
      },
      {
+      "Id": "619826987",
+      "Language": "SFX",
+      "ShortName": "339105-Police_siren_-looping_2.wav",
+      "Path": "SFX\\339105-Police_siren_-looping_2_D79FB2B7.wem"
+     },
+     {
       "Id": "621787858",
       "Language": "SFX",
       "ShortName": "Thud3.wav",
@@ -543,6 +649,12 @@
       "Path": "SFX\\Crashes\\Neon signs\\Neon Sign 3_10C4C929.wem"
      },
      {
+      "Id": "735679850",
+      "Language": "SFX",
+      "ShortName": "Column 1.wav",
+      "Path": "SFX\\Column 1_10C4C929.wem"
+     },
+     {
       "Id": "744655709",
       "Language": "SFX",
       "ShortName": "Neo_Asia_segment.wav",
@@ -565,6 +677,12 @@
       "Language": "SFX",
       "ShortName": "Ricochet 2.wav",
       "Path": "SFX\\Ricochet 2_10C4C929.wem"
+     },
+     {
+      "Id": "773357672",
+      "Language": "SFX",
+      "ShortName": "End.wav",
+      "Path": "SFX\\End_10C4C929.wem"
      },
      {
       "Id": "804551779",

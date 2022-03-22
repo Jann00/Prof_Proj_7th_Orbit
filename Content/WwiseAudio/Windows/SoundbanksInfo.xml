@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\</ProjectRoot>
-		<SourceFilesRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Users\User\Documents\GitHub\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\</ProjectRoot>
+		<SourceFilesRoot>D:\Users\User\Documents\GitHub\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Users\User\Documents\GitHub\Prof_Proj_7th_Orbit\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Content\Delivery_Turbo_S_Wwise_Project_Folder</ExternalSourcesOutputRoot>
 	</RootPaths>
@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1958929096">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1716381387">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="963004738">
+		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="185177034">
 			<ObjectPath>\SoundBanks\Default Work Unit\Delivery_Turbo_SFX</ObjectPath>
 			<ShortName>Delivery_Turbo_SFX</ShortName>
 			<Path>Delivery_Turbo_SFX.bnk</Path>
@@ -158,6 +158,49 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" GUID="{6A631888-7CC2-47E7-8CB7-1A337D210976}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="310273212" Language="SFX">
+							<ShortName>Cyber_City_Segment.wav</ShortName>
+							<Path>SFX\Cyber_City_Segment_D79FB2B7.wem</Path>
+						</File>
+						<File Id="390569763" Language="SFX">
+							<ShortName>Main_Menu.wav</ShortName>
+							<Path>SFX\Main_Menu_D79FB2B7.wem</Path>
+						</File>
+						<File Id="458588020" Language="SFX">
+							<ShortName>Combat_Area_Segment.wav</ShortName>
+							<Path>SFX\Combat_Area_Segment_D79FB2B7.wem</Path>
+						</File>
+						<File Id="744655709" Language="SFX">
+							<ShortName>Neo_Asia_segment.wav</ShortName>
+							<Path>SFX\Neo_Asia_segment_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{E5EBD1F6-C1D7-4ABA-9D43-737147385C61}">
+							<Media>
+								<File Id="310273212"/>
+								<File Id="458588020"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2A1637AA-4B50-423B-9E50-E7819C78306F}">
+							<Media>
+								<File Id="390569763"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{FC264E5C-A0C2-41E5-9F35-CD5639C36002}">
+							<Media>
+								<File Id="744655709"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{75DAA388-FF9C-4680-BA2E-1BB99365DC58}">
+							<Media>
+								<File Id="310273212"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Default Work Unit\Player\Crash\Player_Death" GUID="{5A1EC5C0-BE5F-4681-A408-EE0CC8F93A6F}" DurationType="OneShot" DurationMin="5.35" DurationMax="5.35"/>
 				<Event Id="469239576" Name="Police_Sirens" ObjectPath="\Events\Default Work Unit\Enemy\Police_Sirens" GUID="{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}" MaxAttenuation="4000." DurationType="OneShot" DurationMin="5.26" DurationMax="5.26">
 					<IncludedMemoryFiles>
@@ -175,9 +218,19 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1665395876" Name="Roadblock_End" ObjectPath="\Events\Default Work Unit\Environment\Roadblock\Roadblock_End" GUID="{B941BC0C-536D-4D48-A456-1D08EC163E53}" DurationType="OneShot" DurationMin="6.16" DurationMax="6.16"/>
+				<Event Id="1128715351" Name="Roadblock_Start" ObjectPath="\Events\Default Work Unit\Environment\Roadblock\Roadblock_Start" GUID="{F21E6C48-218F-4F9D-B075-C69E505548D4}" DurationType="OneShot" DurationMin="7.01" DurationMax="7.01"/>
 				<Event Id="896914041" Name="Thuds" ObjectPath="\Events\Default Work Unit\Player\Crash\Thuds" GUID="{72CD66B9-8A12-4D76-908A-6931EA5679E5}" DurationType="OneShot" DurationMin="2.46" DurationMax="2.66"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="29940325" Language="SFX">
+					<ShortName>SwitchBoost&amp;Shield.wav</ShortName>
+					<Path>SFX\SwitchBoost&amp;Shield_10C4C929.wem</Path>
+				</File>
+				<File Id="56578030" Language="SFX">
+					<ShortName>SteamLoop.wav</ShortName>
+					<Path>SFX\SteamLoop_D79FB2B7.wem</Path>
+				</File>
 				<File Id="87812547" Language="SFX">
 					<ShortName>Explosions\Explode 2.wav</ShortName>
 					<Path>SFX\Explosions\Explode 2_10C4C929.wem</Path>
@@ -294,6 +347,10 @@
 					<ShortName>Bullet Shot.wav</ShortName>
 					<Path>SFX\Bullet Shot_10C4C929.wem</Path>
 				</File>
+				<File Id="619826987" Language="SFX">
+					<ShortName>339105-Police_siren_-looping_2.wav</ShortName>
+					<Path>SFX\339105-Police_siren_-looping_2_D79FB2B7.wem</Path>
+				</File>
 				<File Id="621787858" Language="SFX">
 					<ShortName>Thud3.wav</ShortName>
 					<Path>SFX\Thud3_10C4C929.wem</Path>
@@ -314,6 +371,10 @@
 					<ShortName>Crashes\Neon signs\Neon Sign 3.wav</ShortName>
 					<Path>SFX\Crashes\Neon signs\Neon Sign 3_10C4C929.wem</Path>
 				</File>
+				<File Id="735679850" Language="SFX">
+					<ShortName>Column 1.wav</ShortName>
+					<Path>SFX\Column 1_10C4C929.wem</Path>
+				</File>
 				<File Id="744655709" Language="SFX">
 					<ShortName>Neo_Asia_segment.wav</ShortName>
 					<Path>SFX\Neo_Asia_segment_D79FB2B7.wem</Path>
@@ -329,6 +390,10 @@
 				<File Id="756135008" Language="SFX">
 					<ShortName>Ricochet 2.wav</ShortName>
 					<Path>SFX\Ricochet 2_10C4C929.wem</Path>
+				</File>
+				<File Id="773357672" Language="SFX">
+					<ShortName>End.wav</ShortName>
+					<Path>SFX\End_10C4C929.wem</Path>
 				</File>
 				<File Id="804551779" Language="SFX">
 					<ShortName>Ricochet 4.wav</ShortName>

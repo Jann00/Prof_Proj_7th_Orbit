@@ -5,9 +5,9 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
-   "SourceFilesRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
+   "ProjectRoot": "D:\\Users\\User\\Documents\\GitHub\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
+   "SourceFilesRoot": "D:\\Users\\User\\Documents\\GitHub\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Users\\User\\Documents\\GitHub\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
    "ExternalSourcesInputFile": "",
    "ExternalSourcesOutputRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Content\\Delivery_Turbo_S_Wwise_Project_Folder"
   },
@@ -16,7 +16,7 @@
     "Id": "2117772400",
     "GUID": "{29261A01-C6AC-44C3-8694-B7D78279D781}",
     "Language": "SFX",
-    "Hash": "3171395806",
+    "Hash": "1516437328",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Delivery_Turbo_SFX",
     "ShortName": "Delivery_Turbo_SFX",
     "Path": "Delivery_Turbo_SFX.bnk",
@@ -118,6 +118,13 @@
       "DurationType": "OneShot",
       "DurationMin": "2.72",
       "DurationMax": "3.04"
+     },
+     {
+      "Id": "2932040671",
+      "Name": "Play_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
+      "GUID": "{6A631888-7CC2-47E7-8CB7-1A337D210976}",
+      "DurationType": "Infinite"
      },
      {
       "Id": "3083087645",
