@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{219F94C8-3B1A-4228-B71B-CF7399E14C49}" SchemaVersion="103">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{219F94C8-3B1A-4228-B71B-CF7399E14C49}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{219F94C8-3B1A-4228-B71B-CF7399E14C49}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Turbo_Song" ID="{3A196025-52E5-461F-BE18-CA45746B360B}">
+					<ChildrenList>
+						<Switch Name="Main_Menu" ID="{2A1637AA-4B50-423B-9E50-E7819C78306F}"/>
+						<Switch Name="Cyber_City" ID="{75DAA388-FF9C-4680-BA2E-1BB99365DC58}"/>
+						<Switch Name="Combat" ID="{E5EBD1F6-C1D7-4ABA-9D43-737147385C61}"/>
+						<Switch Name="Neo_Asia" ID="{FC264E5C-A0C2-41E5-9F35-CD5639C36002}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
