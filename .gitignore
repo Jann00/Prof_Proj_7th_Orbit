@@ -14,6 +14,7 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
+*.dll
 
 # Seemingly a junk folder
 ThirdParty/
@@ -47,7 +48,13 @@ ThirdParty/
 SourceArt/**/*.png
 SourceArt/**/*.tga
 
+
 # Binary Files
+Binaries/*
+Plugins/*/Binaries/*
+
+# Wwise files
+Plugins/Wwise/ThirdParty/*/
 
 
 # Builds
