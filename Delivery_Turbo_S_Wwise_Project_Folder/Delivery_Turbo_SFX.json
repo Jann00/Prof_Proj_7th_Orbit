@@ -5,9 +5,9 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "D:\\Users\\User\\Documents\\GitHub\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
-   "SourceFilesRoot": "D:\\Users\\User\\Documents\\GitHub\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Users\\User\\Documents\\GitHub\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
+   "ProjectRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
+   "SourceFilesRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
    "ExternalSourcesInputFile": "",
    "ExternalSourcesOutputRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Content\\Delivery_Turbo_S_Wwise_Project_Folder"
   },
@@ -16,7 +16,7 @@
     "Id": "2117772400",
     "GUID": "{29261A01-C6AC-44C3-8694-B7D78279D781}",
     "Language": "SFX",
-    "Hash": "1516437328",
+    "Hash": "859935116",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Delivery_Turbo_SFX",
     "ShortName": "Delivery_Turbo_SFX",
     "Path": "Delivery_Turbo_SFX.bnk",
@@ -180,6 +180,15 @@
       "DurationType": "OneShot",
       "DurationMin": "2.46",
       "DurationMax": "2.66"
+     },
+     {
+      "Id": "1323846727",
+      "Name": "Whoosh",
+      "ObjectPath": "\\Events\\Default Work Unit\\Whoosh",
+      "GUID": "{D169DB1C-B9AA-4F8D-8E17-607E7BC4B630}",
+      "DurationType": "OneShot",
+      "DurationMin": "12.",
+      "DurationMax": "12."
      }
     ],
     "IncludedMemoryFiles": [
@@ -214,6 +223,12 @@
       "Path": "SFX\\Fast siren hi_10C4C929.wem"
      },
      {
+      "Id": "141183609",
+      "Language": "SFX",
+      "ShortName": "Whoosh3.wav",
+      "Path": "SFX\\Whoosh3_10C4C929.wem"
+     },
+     {
       "Id": "180382592",
       "Language": "SFX",
       "ShortName": "police long.wav",
@@ -226,16 +241,22 @@
       "Path": "SFX\\Activate2_10C4C929.wem"
      },
      {
+      "Id": "232153887",
+      "Language": "SFX",
+      "ShortName": "air.wav",
+      "Path": "SFX\\air_D79FB2B7.wem"
+     },
+     {
       "Id": "256232688",
       "Language": "SFX",
       "ShortName": "Thud4.wav",
       "Path": "SFX\\Thud4_10C4C929.wem"
      },
      {
-      "Id": "298664394",
+      "Id": "280003396",
       "Language": "SFX",
-      "ShortName": "Air horn short.wav",
-      "Path": "SFX\\Air horn short_10C4C929.wem"
+      "ShortName": "Rev lo.wav",
+      "Path": "SFX\\Rev lo_D79FB2B7.wem"
      },
      {
       "Id": "310273212",
@@ -268,10 +289,22 @@
       "Path": "SFX\\Explosions\\Explode 3_10C4C929.wem"
      },
      {
+      "Id": "386225161",
+      "Language": "SFX",
+      "ShortName": "248586-Passenger_Jet_Cruising_Interior_Loop_2.wav",
+      "Path": "SFX\\248586-Passenger_Jet_Cruising_Interior_Loop_2_D79FB2B7.wem"
+     },
+     {
       "Id": "390569763",
       "Language": "SFX",
       "ShortName": "Main_Menu.wav",
       "Path": "SFX\\Main_Menu_D79FB2B7.wem"
+     },
+     {
+      "Id": "404200794",
+      "Language": "SFX",
+      "ShortName": "Whoosh2.wav",
+      "Path": "SFX\\Whoosh2_10C4C929.wem"
      },
      {
       "Id": "440780343",
@@ -308,6 +341,12 @@
       "Language": "SFX",
       "ShortName": "beef siren lo.wav",
       "Path": "SFX\\beef siren lo_10C4C929.wem"
+     },
+     {
+      "Id": "478473570",
+      "Language": "SFX",
+      "ShortName": "Rev hi.wav",
+      "Path": "SFX\\Rev hi_D79FB2B7.wem"
      },
      {
       "Id": "483320932",
@@ -362,6 +401,12 @@
       "Language": "SFX",
       "ShortName": "Activate1.wav",
       "Path": "SFX\\Activate1_10C4C929.wem"
+     },
+     {
+      "Id": "578260758",
+      "Language": "SFX",
+      "ShortName": "Whoosh.wav",
+      "Path": "SFX\\Whoosh_10C4C929.wem"
      },
      {
       "Id": "598813713",
@@ -454,12 +499,6 @@
       "Path": "SFX\\EngineLoop the one_D79FB2B7.wem"
      },
      {
-      "Id": "857593525",
-      "Language": "SFX",
-      "ShortName": "Air horn long.wav",
-      "Path": "SFX\\Air horn long_10C4C929.wem"
-     },
-     {
       "Id": "888857331",
       "Language": "SFX",
       "ShortName": "Explosions\\Explode 1.wav",
@@ -494,6 +533,26 @@
       "Language": "SFX",
       "ShortName": "Fire_1.wav",
       "Path": "SFX\\Fire_1_10C4C929.wem"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "796049864",
+      "Name": "RPM",
+      "ObjectPath": "\\Game Parameters\\Factory Motion\\RPM",
+      "GUID": "{9112AA05-F577-44FD-9F4E-4424158129E6}"
+     },
+     {
+      "Id": "1908158473",
+      "Name": "Pitch",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Pitch",
+      "GUID": "{E9C849EC-F12C-4D7C-B57A-CAEF68B21108}"
+     },
+     {
+      "Id": "2415836739",
+      "Name": "Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume",
+      "GUID": "{AEFB71B4-1F9C-4F77-BE0A-654E126C8D8B}"
      }
     ],
     "SwitchGroups": [
