@@ -28,7 +28,7 @@
     "Id": "2117772400",
     "GUID": "{29261A01-C6AC-44C3-8694-B7D78279D781}",
     "Language": "SFX",
-    "Hash": "859935116",
+    "Hash": "3145430594",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Delivery_Turbo_SFX",
     "ShortName": "Delivery_Turbo_SFX",
     "Path": "Delivery_Turbo_SFX.bnk",
@@ -114,6 +114,15 @@
       "DurationMax": "7.99"
      },
      {
+      "Id": "4000334486",
+      "Name": "Near_Miss",
+      "ObjectPath": "\\Events\\Default Work Unit\\Near_Miss",
+      "GUID": "{D169DB1C-B9AA-4F8D-8E17-607E7BC4B630}",
+      "DurationType": "OneShot",
+      "DurationMin": "12.",
+      "DurationMax": "12."
+     },
+     {
       "Id": "352728014",
       "Name": "Neon_Signs",
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Crash\\Neon_Signs",
@@ -185,6 +194,15 @@
       "DurationMax": "7.01"
      },
      {
+      "Id": "813386767",
+      "Name": "Switch_Boost_Shield",
+      "ObjectPath": "\\Events\\Default Work Unit\\Switch_Boost_Shield",
+      "GUID": "{E0C3F699-FB03-445B-BA69-29A814686361}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.79",
+      "DurationMax": "4.79"
+     },
+     {
       "Id": "896914041",
       "Name": "Thuds",
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Crash\\Thuds",
@@ -192,15 +210,6 @@
       "DurationType": "OneShot",
       "DurationMin": "2.46",
       "DurationMax": "2.66"
-     },
-     {
-      "Id": "1323846727",
-      "Name": "Whoosh",
-      "ObjectPath": "\\Events\\Default Work Unit\\Whoosh",
-      "GUID": "{D169DB1C-B9AA-4F8D-8E17-607E7BC4B630}",
-      "DurationType": "OneShot",
-      "DurationMin": "12.",
-      "DurationMax": "12."
      }
     ],
     "IncludedMemoryFiles": [

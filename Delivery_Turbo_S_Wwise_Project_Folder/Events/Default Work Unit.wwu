@@ -234,12 +234,23 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Whoosh" ID="{D169DB1C-B9AA-4F8D-8E17-607E7BC4B630}">
+				<Event Name="Near_Miss" ID="{D169DB1C-B9AA-4F8D-8E17-607E7BC4B630}">
 					<ChildrenList>
 						<Action Name="" ID="{B3D90BD1-A2B2-49BD-A989-A4D25149BE42}" ShortID="588022269">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Random Whooshes" ID="{18143BD2-D36A-49C0-BF70-F42E19C8A3E1}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Switch_Boost_Shield" ID="{E0C3F699-FB03-445B-BA69-29A814686361}">
+					<ChildrenList>
+						<Action Name="" ID="{4EC6183D-38F2-482E-A625-A6D7841C28FA}" ShortID="1008830610">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SwitchBoost&amp;Shield" ID="{451AE341-26CB-4B32-92E2-0DC65F1054C1}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

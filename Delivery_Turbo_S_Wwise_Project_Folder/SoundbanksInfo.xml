@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="859935116">
+		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="3145430594">
 			<ObjectPath>\SoundBanks\Default Work Unit\Delivery_Turbo_SFX</ObjectPath>
 			<ShortName>Delivery_Turbo_SFX</ShortName>
 			<Path>Delivery_Turbo_SFX.bnk</Path>
@@ -30,6 +30,7 @@
 				<Event Id="1526952917" Name="EngineLoop" ObjectPath="\Events\Default Work Unit\EngineLoop" GUID="{606D6590-C0A4-4A08-8733-16E534635B71}" MaxAttenuation="4000." DurationType="Infinite"/>
 				<Event Id="2678880713" Name="Fire" ObjectPath="\Events\Default Work Unit\Enemy\Laser\Fire" GUID="{6A586B59-5AFD-4F64-B458-6A86658621E2}" DurationType="OneShot" DurationMin="3.79" DurationMax="3.87"/>
 				<Event Id="4085277030" Name="Hold_Shield" ObjectPath="\Events\Default Work Unit\Player\Shield\Hold_Shield" GUID="{3A93548A-4028-4501-932E-3EC51F1EE505}" DurationType="OneShot" DurationMin="7.99" DurationMax="7.99"/>
+				<Event Id="4000334486" Name="Near_Miss" ObjectPath="\Events\Default Work Unit\Near_Miss" GUID="{D169DB1C-B9AA-4F8D-8E17-607E7BC4B630}" DurationType="OneShot" DurationMin="12." DurationMax="12."/>
 				<Event Id="352728014" Name="Neon_Signs" ObjectPath="\Events\Default Work Unit\Player\Crash\Neon_Signs" GUID="{05FAB36D-607F-4B00-AA5C-EC2260AE83A6}" DurationType="OneShot" DurationMin="2.92" DurationMax="3.15"/>
 				<Event Id="3076648345" Name="Parry" ObjectPath="\Events\Default Work Unit\Player\Shield\Parry" GUID="{07AF8F07-11D7-4EBC-BDBC-B8BA786AB42A}" DurationType="OneShot" DurationMin="2.72" DurationMax="3.04"/>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" GUID="{6A631888-7CC2-47E7-8CB7-1A337D210976}" DurationType="Infinite"/>
@@ -38,8 +39,8 @@
 				<Event Id="2405648188" Name="Release" ObjectPath="\Events\Default Work Unit\Player\Shield\Release" GUID="{CD6E0738-7BC2-41BB-9A28-375C4311EB29}" DurationType="OneShot" DurationMin="2.38" DurationMax="2.38"/>
 				<Event Id="1665395876" Name="Roadblock_End" ObjectPath="\Events\Default Work Unit\Environment\Roadblock\Roadblock_End" GUID="{B941BC0C-536D-4D48-A456-1D08EC163E53}" DurationType="OneShot" DurationMin="6.16" DurationMax="6.16"/>
 				<Event Id="1128715351" Name="Roadblock_Start" ObjectPath="\Events\Default Work Unit\Environment\Roadblock\Roadblock_Start" GUID="{F21E6C48-218F-4F9D-B075-C69E505548D4}" DurationType="OneShot" DurationMin="7.01" DurationMax="7.01"/>
+				<Event Id="813386767" Name="Switch_Boost_Shield" ObjectPath="\Events\Default Work Unit\Switch_Boost_Shield" GUID="{E0C3F699-FB03-445B-BA69-29A814686361}" DurationType="OneShot" DurationMin="4.79" DurationMax="4.79"/>
 				<Event Id="896914041" Name="Thuds" ObjectPath="\Events\Default Work Unit\Player\Crash\Thuds" GUID="{72CD66B9-8A12-4D76-908A-6931EA5679E5}" DurationType="OneShot" DurationMin="2.46" DurationMax="2.66"/>
-				<Event Id="1323846727" Name="Whoosh" ObjectPath="\Events\Default Work Unit\Whoosh" GUID="{D169DB1C-B9AA-4F8D-8E17-607E7BC4B630}" DurationType="OneShot" DurationMin="12." DurationMax="12."/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="29940325" Language="SFX">

@@ -1,10 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
 	352728014	Neon_Signs			\Default Work Unit\Player\Crash\Neon_Signs	
 	469239576	Police_Sirens			\Default Work Unit\Enemy\Police_Sirens	
+	813386767	Switch_Boost_Shield			\Default Work Unit\Switch_Boost_Shield	
 	896914041	Thuds			\Default Work Unit\Player\Crash\Thuds	
 	1128715351	Roadblock_Start			\Default Work Unit\Environment\Roadblock\Roadblock_Start	
 	1256513485	Bullet			\Default Work Unit\Enemy\Laser\Bullet	
-	1323846727	Whoosh			\Default Work Unit\Whoosh	
 	1526952917	EngineLoop			\Default Work Unit\EngineLoop	
 	1665395876	Roadblock_End			\Default Work Unit\Environment\Roadblock\Roadblock_End	
 	2188867727	Boost_Start			\Default Work Unit\Player\Boost\Boost_Start	
@@ -15,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3076648345	Parry			\Default Work Unit\Player\Shield\Parry	
 	3083087645	Player_Death			\Default Work Unit\Player\Crash\Player_Death	
 	3092917036	Boost_End			\Default Work Unit\Player\Boost\Boost_End	
+	4000334486	Near_Miss			\Default Work Unit\Near_Miss	
 	4085277030	Hold_Shield			\Default Work Unit\Player\Shield\Hold_Shield	
 	4166407614	Activate			\Default Work Unit\Player\Shield\Activate	
 	4247371150	Chargeup			\Default Work Unit\Enemy\Laser\Chargeup	
