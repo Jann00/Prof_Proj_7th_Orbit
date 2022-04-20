@@ -3362,6 +3362,114 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkAudioInput.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkCompressor.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkDelay.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkExpander.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkFlanger.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkGain.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkGuitarDistortion.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkHarmonizer.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkMatrixReverb.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkMotion.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkParametricEQ.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkPeakLimiter.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkPitchShifter.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkRecorder.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkReflect.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkRoomVerb.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkSilenceGenerator.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkSineTone.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkSoundEngineDLL.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkSoundSeedAir.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkSoundSeedImpact.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkStereoDelay.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkSynthOne.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkTimeStretch.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkToneGen.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/AkTremolo.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/MasteringSuite.dll",
+			"Type": "NonUFS"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll",
 			"Type": "NonUFS"
 		},
