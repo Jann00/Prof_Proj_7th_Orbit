@@ -9,6 +9,7 @@
 						<Switch Name="Cyber_City" ID="{75DAA388-FF9C-4680-BA2E-1BB99365DC58}"/>
 						<Switch Name="Combat" ID="{E5EBD1F6-C1D7-4ABA-9D43-737147385C61}"/>
 						<Switch Name="Neo_Asia" ID="{FC264E5C-A0C2-41E5-9F35-CD5639C36002}"/>
+						<Switch Name="Tutorial" ID="{41E564FF-5AD0-4231-AFD7-5CFB4A98927E}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

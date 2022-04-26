@@ -28,7 +28,7 @@
     "Id": "2117772400",
     "GUID": "{29261A01-C6AC-44C3-8694-B7D78279D781}",
     "Language": "SFX",
-    "Hash": "3145430594",
+    "Hash": "465389508",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Delivery_Turbo_SFX",
     "ShortName": "Delivery_Turbo_SFX",
     "Path": "Delivery_Turbo_SFX.bnk",
@@ -244,6 +244,12 @@
       "Path": "SFX\\Fast siren hi_10C4C929.wem"
      },
      {
+      "Id": "139304752",
+      "Language": "SFX",
+      "ShortName": "intro.wav",
+      "Path": "SFX\\intro_D79FB2B7.wem"
+     },
+     {
       "Id": "141183609",
       "Language": "SFX",
       "ShortName": "Whoosh3.wav",
@@ -280,12 +286,6 @@
       "Path": "SFX\\Rev lo_D79FB2B7.wem"
      },
      {
-      "Id": "310273212",
-      "Language": "SFX",
-      "ShortName": "Cyber_City_Segment.wav",
-      "Path": "SFX\\Cyber_City_Segment_D79FB2B7.wem"
-     },
-     {
       "Id": "325336864",
       "Language": "SFX",
       "ShortName": "Boost_End.wav",
@@ -316,12 +316,6 @@
       "Path": "SFX\\248586-Passenger_Jet_Cruising_Interior_Loop_2_D79FB2B7.wem"
      },
      {
-      "Id": "390569763",
-      "Language": "SFX",
-      "ShortName": "Main_Menu.wav",
-      "Path": "SFX\\Main_Menu_D79FB2B7.wem"
-     },
-     {
       "Id": "404200794",
       "Language": "SFX",
       "ShortName": "Whoosh2.wav",
@@ -332,6 +326,12 @@
       "Language": "SFX",
       "ShortName": "Thud\\Thud2.wav",
       "Path": "SFX\\Thud\\Thud2_10C4C929.wem"
+     },
+     {
+      "Id": "444704952",
+      "Language": "SFX",
+      "ShortName": "build up.wav",
+      "Path": "SFX\\build up_D79FB2B7.wem"
      },
      {
       "Id": "451595727",
@@ -346,10 +346,10 @@
       "Path": "SFX\\Fast siren lo_10C4C929.wem"
      },
      {
-      "Id": "458588020",
+      "Id": "459256392",
       "Language": "SFX",
-      "ShortName": "Combat_Area_Segment.wav",
-      "Path": "SFX\\Combat_Area_Segment_D79FB2B7.wem"
+      "ShortName": "verse quiet.wav",
+      "Path": "SFX\\verse quiet_D79FB2B7.wem"
      },
      {
       "Id": "463505214",
@@ -392,6 +392,12 @@
       "Language": "SFX",
       "ShortName": "Siren lo.wav",
       "Path": "SFX\\Siren lo_10C4C929.wem"
+     },
+     {
+      "Id": "526281110",
+      "Language": "SFX",
+      "ShortName": "verse 1.wav",
+      "Path": "SFX\\verse 1_D79FB2B7.wem"
      },
      {
       "Id": "540801608",
@@ -448,6 +454,12 @@
       "Path": "SFX\\Thud3_10C4C929.wem"
      },
      {
+      "Id": "692732149",
+      "Language": "SFX",
+      "ShortName": "combat.wav",
+      "Path": "SFX\\combat_D79FB2B7.wem"
+     },
+     {
       "Id": "695606037",
       "Language": "SFX",
       "ShortName": "Bullet Shot2.wav",
@@ -476,12 +488,6 @@
       "Language": "SFX",
       "ShortName": "Column 1.wav",
       "Path": "SFX\\Column 1_10C4C929.wem"
-     },
-     {
-      "Id": "744655709",
-      "Language": "SFX",
-      "ShortName": "Neo_Asia_segment.wav",
-      "Path": "SFX\\Neo_Asia_segment_D79FB2B7.wem"
      },
      {
       "Id": "750526886",
@@ -518,6 +524,12 @@
       "Language": "SFX",
       "ShortName": "EngineLoop the one.wav",
       "Path": "SFX\\EngineLoop the one_D79FB2B7.wem"
+     },
+     {
+      "Id": "820505143",
+      "Language": "SFX",
+      "ShortName": "main menu.wav",
+      "Path": "SFX\\main menu_D79FB2B7.wem"
      },
      {
       "Id": "888857331",
@@ -606,6 +618,12 @@
         "Name": "Neo_Asia",
         "ObjectPath": "\\Switches\\Default Work Unit\\Turbo_Song\\Neo_Asia",
         "GUID": "{FC264E5C-A0C2-41E5-9F35-CD5639C36002}"
+       },
+       {
+        "Id": "3762955427",
+        "Name": "Tutorial",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Turbo_Song\\Tutorial",
+        "GUID": "{41E564FF-5AD0-4231-AFD7-5CFB4A98927E}"
        }
       ]
      }
