@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1716381387">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="790241926">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="185177034">
+		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="728930332">
 			<ObjectPath>\SoundBanks\Default Work Unit\Delivery_Turbo_SFX</ObjectPath>
 			<ShortName>Delivery_Turbo_SFX</ShortName>
 			<Path>Delivery_Turbo_SFX.bnk</Path>
@@ -118,6 +118,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="4000334486" Name="Near_Miss" ObjectPath="\Events\Default Work Unit\Near_Miss" GUID="{D169DB1C-B9AA-4F8D-8E17-607E7BC4B630}" DurationType="OneShot" DurationMin="12." DurationMax="12."/>
 				<Event Id="352728014" Name="Neon_Signs" ObjectPath="\Events\Default Work Unit\Player\Crash\Neon_Signs" GUID="{05FAB36D-607F-4B00-AA5C-EC2260AE83A6}" DurationType="OneShot" DurationMin="2.92" DurationMax="3.15">
 					<IncludedMemoryFiles>
 						<File Id="483320932" Language="SFX">
@@ -160,43 +161,58 @@
 				</Event>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" GUID="{6A631888-7CC2-47E7-8CB7-1A337D210976}" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="310273212" Language="SFX">
-							<ShortName>Cyber_City_Segment.wav</ShortName>
-							<Path>SFX\Cyber_City_Segment_D79FB2B7.wem</Path>
+						<File Id="139304752" Language="SFX">
+							<ShortName>intro.wav</ShortName>
+							<Path>SFX\intro_D79FB2B7.wem</Path>
 						</File>
-						<File Id="390569763" Language="SFX">
-							<ShortName>Main_Menu.wav</ShortName>
-							<Path>SFX\Main_Menu_D79FB2B7.wem</Path>
+						<File Id="444704952" Language="SFX">
+							<ShortName>build up.wav</ShortName>
+							<Path>SFX\build up_D79FB2B7.wem</Path>
 						</File>
-						<File Id="458588020" Language="SFX">
-							<ShortName>Combat_Area_Segment.wav</ShortName>
-							<Path>SFX\Combat_Area_Segment_D79FB2B7.wem</Path>
+						<File Id="459256392" Language="SFX">
+							<ShortName>verse quiet.wav</ShortName>
+							<Path>SFX\verse quiet_D79FB2B7.wem</Path>
 						</File>
-						<File Id="744655709" Language="SFX">
-							<ShortName>Neo_Asia_segment.wav</ShortName>
-							<Path>SFX\Neo_Asia_segment_D79FB2B7.wem</Path>
+						<File Id="526281110" Language="SFX">
+							<ShortName>verse 1.wav</ShortName>
+							<Path>SFX\verse 1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="692732149" Language="SFX">
+							<ShortName>combat.wav</ShortName>
+							<Path>SFX\combat_D79FB2B7.wem</Path>
+						</File>
+						<File Id="820505143" Language="SFX">
+							<ShortName>main menu.wav</ShortName>
+							<Path>SFX\main menu_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{E5EBD1F6-C1D7-4ABA-9D43-737147385C61}">
 							<Media>
-								<File Id="310273212"/>
-								<File Id="458588020"/>
+								<File Id="444704952"/>
+								<File Id="692732149"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{2A1637AA-4B50-423B-9E50-E7819C78306F}">
 							<Media>
-								<File Id="390569763"/>
+								<File Id="820505143"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{FC264E5C-A0C2-41E5-9F35-CD5639C36002}">
 							<Media>
-								<File Id="744655709"/>
+								<File Id="139304752"/>
+								<File Id="444704952"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{75DAA388-FF9C-4680-BA2E-1BB99365DC58}">
 							<Media>
-								<File Id="310273212"/>
+								<File Id="139304752"/>
+								<File Id="526281110"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{41E564FF-5AD0-4231-AFD7-5CFB4A98927E}">
+							<Media>
+								<File Id="459256392"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -220,6 +236,7 @@
 				</Event>
 				<Event Id="1665395876" Name="Roadblock_End" ObjectPath="\Events\Default Work Unit\Environment\Roadblock\Roadblock_End" GUID="{B941BC0C-536D-4D48-A456-1D08EC163E53}" DurationType="OneShot" DurationMin="6.16" DurationMax="6.16"/>
 				<Event Id="1128715351" Name="Roadblock_Start" ObjectPath="\Events\Default Work Unit\Environment\Roadblock\Roadblock_Start" GUID="{F21E6C48-218F-4F9D-B075-C69E505548D4}" DurationType="OneShot" DurationMin="7.01" DurationMax="7.01"/>
+				<Event Id="813386767" Name="Switch_Boost_Shield" ObjectPath="\Events\Default Work Unit\Switch_Boost_Shield" GUID="{E0C3F699-FB03-445B-BA69-29A814686361}" DurationType="OneShot" DurationMin="4.79" DurationMax="4.79"/>
 				<Event Id="896914041" Name="Thuds" ObjectPath="\Events\Default Work Unit\Player\Crash\Thuds" GUID="{72CD66B9-8A12-4D76-908A-6931EA5679E5}" DurationType="OneShot" DurationMin="2.46" DurationMax="2.66"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -243,6 +260,14 @@
 					<ShortName>Fast siren hi.wav</ShortName>
 					<Path>SFX\Fast siren hi_10C4C929.wem</Path>
 				</File>
+				<File Id="139304752" Language="SFX">
+					<ShortName>intro.wav</ShortName>
+					<Path>SFX\intro_D79FB2B7.wem</Path>
+				</File>
+				<File Id="141183609" Language="SFX">
+					<ShortName>Whoosh3.wav</ShortName>
+					<Path>SFX\Whoosh3_10C4C929.wem</Path>
+				</File>
 				<File Id="180382592" Language="SFX">
 					<ShortName>police long.wav</ShortName>
 					<Path>SFX\police long_10C4C929.wem</Path>
@@ -251,17 +276,17 @@
 					<ShortName>Activate2.wav</ShortName>
 					<Path>SFX\Activate2_10C4C929.wem</Path>
 				</File>
+				<File Id="232153887" Language="SFX">
+					<ShortName>air.wav</ShortName>
+					<Path>SFX\air_D79FB2B7.wem</Path>
+				</File>
 				<File Id="256232688" Language="SFX">
 					<ShortName>Thud4.wav</ShortName>
 					<Path>SFX\Thud4_10C4C929.wem</Path>
 				</File>
-				<File Id="298664394" Language="SFX">
-					<ShortName>Air horn short.wav</ShortName>
-					<Path>SFX\Air horn short_10C4C929.wem</Path>
-				</File>
-				<File Id="310273212" Language="SFX">
-					<ShortName>Cyber_City_Segment.wav</ShortName>
-					<Path>SFX\Cyber_City_Segment_D79FB2B7.wem</Path>
+				<File Id="280003396" Language="SFX">
+					<ShortName>Rev lo.wav</ShortName>
+					<Path>SFX\Rev lo_D79FB2B7.wem</Path>
 				</File>
 				<File Id="325336864" Language="SFX">
 					<ShortName>Boost_End.wav</ShortName>
@@ -279,13 +304,21 @@
 					<ShortName>Explosions\Explode 3.wav</ShortName>
 					<Path>SFX\Explosions\Explode 3_10C4C929.wem</Path>
 				</File>
-				<File Id="390569763" Language="SFX">
-					<ShortName>Main_Menu.wav</ShortName>
-					<Path>SFX\Main_Menu_D79FB2B7.wem</Path>
+				<File Id="386225161" Language="SFX">
+					<ShortName>248586-Passenger_Jet_Cruising_Interior_Loop_2.wav</ShortName>
+					<Path>SFX\248586-Passenger_Jet_Cruising_Interior_Loop_2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="404200794" Language="SFX">
+					<ShortName>Whoosh2.wav</ShortName>
+					<Path>SFX\Whoosh2_10C4C929.wem</Path>
 				</File>
 				<File Id="440780343" Language="SFX">
 					<ShortName>Thud\Thud2.wav</ShortName>
 					<Path>SFX\Thud\Thud2_10C4C929.wem</Path>
+				</File>
+				<File Id="444704952" Language="SFX">
+					<ShortName>build up.wav</ShortName>
+					<Path>SFX\build up_D79FB2B7.wem</Path>
 				</File>
 				<File Id="451595727" Language="SFX">
 					<ShortName>Charge_2.wav</ShortName>
@@ -295,9 +328,9 @@
 					<ShortName>Fast siren lo.wav</ShortName>
 					<Path>SFX\Fast siren lo_10C4C929.wem</Path>
 				</File>
-				<File Id="458588020" Language="SFX">
-					<ShortName>Combat_Area_Segment.wav</ShortName>
-					<Path>SFX\Combat_Area_Segment_D79FB2B7.wem</Path>
+				<File Id="459256392" Language="SFX">
+					<ShortName>verse quiet.wav</ShortName>
+					<Path>SFX\verse quiet_D79FB2B7.wem</Path>
 				</File>
 				<File Id="463505214" Language="SFX">
 					<ShortName>Siren hi.wav</ShortName>
@@ -306,6 +339,10 @@
 				<File Id="473232844" Language="SFX">
 					<ShortName>beef siren lo.wav</ShortName>
 					<Path>SFX\beef siren lo_10C4C929.wem</Path>
+				</File>
+				<File Id="478473570" Language="SFX">
+					<ShortName>Rev hi.wav</ShortName>
+					<Path>SFX\Rev hi_D79FB2B7.wem</Path>
 				</File>
 				<File Id="483320932" Language="SFX">
 					<ShortName>Crashes\Neon signs\Neon Sign 4.wav</ShortName>
@@ -322,6 +359,10 @@
 				<File Id="511862039" Language="SFX">
 					<ShortName>Siren lo.wav</ShortName>
 					<Path>SFX\Siren lo_10C4C929.wem</Path>
+				</File>
+				<File Id="526281110" Language="SFX">
+					<ShortName>verse 1.wav</ShortName>
+					<Path>SFX\verse 1_D79FB2B7.wem</Path>
 				</File>
 				<File Id="540801608" Language="SFX">
 					<ShortName>Crashes\Neon signs\Neon Sign 2.wav</ShortName>
@@ -343,6 +384,10 @@
 					<ShortName>Activate1.wav</ShortName>
 					<Path>SFX\Activate1_10C4C929.wem</Path>
 				</File>
+				<File Id="578260758" Language="SFX">
+					<ShortName>Whoosh.wav</ShortName>
+					<Path>SFX\Whoosh_10C4C929.wem</Path>
+				</File>
 				<File Id="598813713" Language="SFX">
 					<ShortName>Bullet Shot.wav</ShortName>
 					<Path>SFX\Bullet Shot_10C4C929.wem</Path>
@@ -354,6 +399,10 @@
 				<File Id="621787858" Language="SFX">
 					<ShortName>Thud3.wav</ShortName>
 					<Path>SFX\Thud3_10C4C929.wem</Path>
+				</File>
+				<File Id="692732149" Language="SFX">
+					<ShortName>combat.wav</ShortName>
+					<Path>SFX\combat_D79FB2B7.wem</Path>
 				</File>
 				<File Id="695606037" Language="SFX">
 					<ShortName>Bullet Shot2.wav</ShortName>
@@ -374,10 +423,6 @@
 				<File Id="735679850" Language="SFX">
 					<ShortName>Column 1.wav</ShortName>
 					<Path>SFX\Column 1_10C4C929.wem</Path>
-				</File>
-				<File Id="744655709" Language="SFX">
-					<ShortName>Neo_Asia_segment.wav</ShortName>
-					<Path>SFX\Neo_Asia_segment_D79FB2B7.wem</Path>
 				</File>
 				<File Id="750526886" Language="SFX">
 					<ShortName>Thud\Thud1.wav</ShortName>
@@ -403,9 +448,9 @@
 					<ShortName>EngineLoop the one.wav</ShortName>
 					<Path>SFX\EngineLoop the one_D79FB2B7.wem</Path>
 				</File>
-				<File Id="857593525" Language="SFX">
-					<ShortName>Air horn long.wav</ShortName>
-					<Path>SFX\Air horn long_10C4C929.wem</Path>
+				<File Id="820505143" Language="SFX">
+					<ShortName>main menu.wav</ShortName>
+					<Path>SFX\main menu_D79FB2B7.wem</Path>
 				</File>
 				<File Id="888857331" Language="SFX">
 					<ShortName>Explosions\Explode 1.wav</ShortName>
@@ -432,6 +477,11 @@
 					<Path>SFX\Fire_1_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="796049864" Name="RPM" ObjectPath="\Game Parameters\Factory Motion\RPM" GUID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
+				<GameParameter Id="1908158473" Name="Pitch" ObjectPath="\Game Parameters\Default Work Unit\Pitch" GUID="{E9C849EC-F12C-4D7C-B57A-CAEF68B21108}"/>
+				<GameParameter Id="2415836739" Name="Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume" GUID="{AEFB71B4-1F9C-4F77-BE0A-654E126C8D8B}"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="3541316773" Name="Turbo_Song" ObjectPath="\Switches\Default Work Unit\Turbo_Song" GUID="{3A196025-52E5-461F-BE18-CA45746B360B}">
 					<Switches>
@@ -439,6 +489,7 @@
 						<Switch Id="3940938514" Name="Cyber_City" ObjectPath="\Switches\Default Work Unit\Turbo_Song\Cyber_City" GUID="{75DAA388-FF9C-4680-BA2E-1BB99365DC58}"/>
 						<Switch Id="2764240573" Name="Combat" ObjectPath="\Switches\Default Work Unit\Turbo_Song\Combat" GUID="{E5EBD1F6-C1D7-4ABA-9D43-737147385C61}"/>
 						<Switch Id="1279708370" Name="Neo_Asia" ObjectPath="\Switches\Default Work Unit\Turbo_Song\Neo_Asia" GUID="{FC264E5C-A0C2-41E5-9F35-CD5639C36002}"/>
+						<Switch Id="3762955427" Name="Tutorial" ObjectPath="\Switches\Default Work Unit\Turbo_Song\Tutorial" GUID="{41E564FF-5AD0-4231-AFD7-5CFB4A98927E}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
