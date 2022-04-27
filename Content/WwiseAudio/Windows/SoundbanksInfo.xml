@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>D:\Users\User\Documents\GitHub\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\</ProjectRoot>
-		<SourceFilesRoot>D:\Users\User\Documents\GitHub\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Users\User\Documents\GitHub\Prof_Proj_7th_Orbit\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\</ProjectRoot>
+		<SourceFilesRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Content\Delivery_Turbo_S_Wwise_Project_Folder</ExternalSourcesOutputRoot>
 	</RootPaths>
@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="728930332">
+		<SoundBank Id="2117772400" GUID="{29261A01-C6AC-44C3-8694-B7D78279D781}" Language="SFX" Hash="4172568796">
 			<ObjectPath>\SoundBanks\Default Work Unit\Delivery_Turbo_SFX</ObjectPath>
 			<ShortName>Delivery_Turbo_SFX</ShortName>
 			<Path>Delivery_Turbo_SFX.bnk</Path>
@@ -86,11 +86,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1526952917" Name="EngineLoop" ObjectPath="\Events\Default Work Unit\EngineLoop" GUID="{606D6590-C0A4-4A08-8733-16E534635B71}" MaxAttenuation="4000." DurationType="Infinite">
+				<Event Id="1526952917" Name="EngineLoop" ObjectPath="\Events\Default Work Unit\EngineLoop" GUID="{606D6590-C0A4-4A08-8733-16E534635B71}" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="814047282" Language="SFX">
-							<ShortName>EngineLoop the one.wav</ShortName>
-							<Path>SFX\EngineLoop the one_D79FB2B7.wem</Path>
+						<File Id="752951143" Language="SFX">
+							<ShortName>engine sound try 4.wav</ShortName>
+							<Path>SFX\engine sound try 4_B7E2DDC7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -200,8 +200,8 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{FC264E5C-A0C2-41E5-9F35-CD5639C36002}">
 							<Media>
-								<File Id="139304752"/>
 								<File Id="444704952"/>
+								<File Id="459256392"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{75DAA388-FF9C-4680-BA2E-1BB99365DC58}">
@@ -218,11 +218,23 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Default Work Unit\Player\Crash\Player_Death" GUID="{5A1EC5C0-BE5F-4681-A408-EE0CC8F93A6F}" DurationType="OneShot" DurationMin="5.35" DurationMax="5.35"/>
-				<Event Id="469239576" Name="Police_Sirens" ObjectPath="\Events\Default Work Unit\Enemy\Police_Sirens" GUID="{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}" MaxAttenuation="4000." DurationType="OneShot" DurationMin="5.26" DurationMax="5.26">
+				<Event Id="469239576" Name="Police_Sirens" ObjectPath="\Events\Default Work Unit\Enemy\Police_Sirens" GUID="{AA2F2FB5-DF8F-4A1B-8EDB-3D41EF48801C}" MaxAttenuation="4000." DurationType="OneShot" DurationMin="5.26" DurationMax="5.8">
 					<IncludedMemoryFiles>
+						<File Id="130233522" Language="SFX">
+							<ShortName>Fast siren hi.wav</ShortName>
+							<Path>SFX\Fast siren hi_10C4C929.wem</Path>
+						</File>
 						<File Id="180382592" Language="SFX">
 							<ShortName>police long.wav</ShortName>
 							<Path>SFX\police long_10C4C929.wem</Path>
+						</File>
+						<File Id="463505214" Language="SFX">
+							<ShortName>Siren hi.wav</ShortName>
+							<Path>SFX\Siren hi_10C4C929.wem</Path>
+						</File>
+						<File Id="567191424" Language="SFX">
+							<ShortName>beef siren hi.wav</ShortName>
+							<Path>SFX\beef siren hi_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -427,6 +439,10 @@
 				<File Id="750526886" Language="SFX">
 					<ShortName>Thud\Thud1.wav</ShortName>
 					<Path>SFX\Thud\Thud1_10C4C929.wem</Path>
+				</File>
+				<File Id="752951143" Language="SFX">
+					<ShortName>engine sound try 4.wav</ShortName>
+					<Path>SFX\engine sound try 4_B7E2DDC7.wem</Path>
 				</File>
 				<File Id="754173065" Language="SFX">
 					<ShortName>Boost_Start.wav</ShortName>

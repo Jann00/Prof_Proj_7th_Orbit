@@ -5,9 +5,9 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "D:\\Users\\User\\Documents\\GitHub\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
-   "SourceFilesRoot": "D:\\Users\\User\\Documents\\GitHub\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Users\\User\\Documents\\GitHub\\Prof_Proj_7th_Orbit\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
+   "SourceFilesRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
    "ExternalSourcesOutputRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Content\\Delivery_Turbo_S_Wwise_Project_Folder"
   },
@@ -28,7 +28,7 @@
     "Id": "2117772400",
     "GUID": "{29261A01-C6AC-44C3-8694-B7D78279D781}",
     "Language": "SFX",
-    "Hash": "728930332",
+    "Hash": "4172568796",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Delivery_Turbo_SFX",
     "ShortName": "Delivery_Turbo_SFX",
     "Path": "Delivery_Turbo_SFX.bnk",
@@ -168,14 +168,13 @@
       "Name": "EngineLoop",
       "ObjectPath": "\\Events\\Default Work Unit\\EngineLoop",
       "GUID": "{606D6590-C0A4-4A08-8733-16E534635B71}",
-      "MaxAttenuation": "4000.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "814047282",
+        "Id": "752951143",
         "Language": "SFX",
-        "ShortName": "EngineLoop the one.wav",
-        "Path": "SFX\\EngineLoop the one_D79FB2B7.wem"
+        "ShortName": "engine sound try 4.wav",
+        "Path": "SFX\\engine sound try 4_B7E2DDC7.wem"
        }
       ]
      },
@@ -372,10 +371,10 @@
         "SwitchValue": "{FC264E5C-A0C2-41E5-9F35-CD5639C36002}",
         "Media": [
          {
-          "Id": "139304752"
+          "Id": "444704952"
          },
          {
-          "Id": "444704952"
+          "Id": "459256392"
          }
         ]
        },
@@ -417,13 +416,31 @@
       "MaxAttenuation": "4000.",
       "DurationType": "OneShot",
       "DurationMin": "5.26",
-      "DurationMax": "5.26",
+      "DurationMax": "5.8",
       "IncludedMemoryFiles": [
+       {
+        "Id": "130233522",
+        "Language": "SFX",
+        "ShortName": "Fast siren hi.wav",
+        "Path": "SFX\\Fast siren hi_10C4C929.wem"
+       },
        {
         "Id": "180382592",
         "Language": "SFX",
         "ShortName": "police long.wav",
         "Path": "SFX\\police long_10C4C929.wem"
+       },
+       {
+        "Id": "463505214",
+        "Language": "SFX",
+        "ShortName": "Siren hi.wav",
+        "Path": "SFX\\Siren hi_10C4C929.wem"
+       },
+       {
+        "Id": "567191424",
+        "Language": "SFX",
+        "ShortName": "beef siren hi.wav",
+        "Path": "SFX\\beef siren hi_10C4C929.wem"
        }
       ]
      },
@@ -763,6 +780,12 @@
       "Language": "SFX",
       "ShortName": "Thud\\Thud1.wav",
       "Path": "SFX\\Thud\\Thud1_10C4C929.wem"
+     },
+     {
+      "Id": "752951143",
+      "Language": "SFX",
+      "ShortName": "engine sound try 4.wav",
+      "Path": "SFX\\engine sound try 4_B7E2DDC7.wem"
      },
      {
       "Id": "754173065",

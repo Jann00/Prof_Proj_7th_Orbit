@@ -184,10 +184,10 @@
 				</Folder>
 				<Event Name="EngineLoop" ID="{606D6590-C0A4-4A08-8733-16E534635B71}">
 					<ChildrenList>
-						<Action Name="" ID="{E9ED141E-4550-418A-8348-B846A0C23F4E}" ShortID="1025449558">
+						<Action Name="" ID="{882C7D78-470A-44CA-897C-3494BC9E7F6F}" ShortID="1008469176">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="EngineLoop" ID="{6357DCC0-FA3D-4F9D-8346-4F1733F63339}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+									<ObjectRef Name="engine sound" ID="{2B3D426F-7B26-4D3C-B47E-D4143DC6EB9F}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
