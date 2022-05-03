@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\</ProjectRoot>
-		<SourceFilesRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Unreal Projects\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\</ProjectRoot>
+		<SourceFilesRoot>C:\Unreal Projects\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Unreal Projects\Prof_Proj_7th_Orbit\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Content\Delivery_Turbo_S_Wwise_Project_Folder</ExternalSourcesOutputRoot>
 	</RootPaths>
