@@ -884,6 +884,42 @@
 								</BlendContainer>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="engine sound" ID="{2B3D426F-7B26-4D3C-B47E-D4143DC6EB9F}" ShortID="595638647">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="engine sound try 10" ID="{428E3854-97C3-4886-8D4F-451585DB67C5}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.17"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.170172413793104"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>engine sound try 10.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="298173636"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="engine sound try 10" ID="{428E3854-97C3-4886-8D4F-451585DB67C5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Enemy" ID="{318C7146-A1FD-48BF-86DF-55077D26A52A}" ShortID="997562581">
@@ -941,6 +977,103 @@
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="police long" ID="{318DBFAF-EC74-40A3-8B96-0C47BCF682F3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fast siren hi" ID="{26C344E7-5805-4BCD-8422-A3168C5CB0AB}" ShortID="645910253">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance Attenuation" ID="{8B515EE9-52BB-4F89-BDEF-8FAB479FB882}" WorkUnitID="{AF8EA5B9-7C8E-46CE-BC1A-4C26F44ED9CD}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fast siren hi" ID="{62133A8A-B127-4A9B-839C-5384DDB2B141}">
+											<Language>SFX</Language>
+											<AudioFile>Fast siren hi.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="130233522"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Fast siren hi" ID="{62133A8A-B127-4A9B-839C-5384DDB2B141}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Siren hi" ID="{B7C14425-BC83-4B90-A083-FD081B00E60E}" ShortID="1054929278">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance Attenuation" ID="{8B515EE9-52BB-4F89-BDEF-8FAB479FB882}" WorkUnitID="{AF8EA5B9-7C8E-46CE-BC1A-4C26F44ED9CD}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Siren hi" ID="{44514226-5371-40CE-889A-036CA4AED965}">
+											<Language>SFX</Language>
+											<AudioFile>Siren hi.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="463505214"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Siren hi" ID="{44514226-5371-40CE-889A-036CA4AED965}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="beef siren hi" ID="{9731A14F-155B-43AC-97A8-71AEB3940F6A}" ShortID="1030310462">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Distance Attenuation" ID="{8B515EE9-52BB-4F89-BDEF-8FAB479FB882}" WorkUnitID="{AF8EA5B9-7C8E-46CE-BC1A-4C26F44ED9CD}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="beef siren hi" ID="{3F0F92D8-99CD-44DC-AC4D-21DB718D8E44}">
+											<Language>SFX</Language>
+											<AudioFile>beef siren hi.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="567191424"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="beef siren hi" ID="{3F0F92D8-99CD-44DC-AC4D-21DB718D8E44}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1346,40 +1479,6 @@
 								<ActiveSource Name="beef siren lo" ID="{51BE978C-0CD7-4D00-BF9F-0458DC8A114B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="beef siren hi" ID="{9731A14F-155B-43AC-97A8-71AEB3940F6A}" ShortID="1030310462">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-2</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Distance Attenuation" ID="{8B515EE9-52BB-4F89-BDEF-8FAB479FB882}" WorkUnitID="{AF8EA5B9-7C8E-46CE-BC1A-4C26F44ED9CD}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="beef siren hi" ID="{3F0F92D8-99CD-44DC-AC4D-21DB718D8E44}">
-									<Language>SFX</Language>
-									<AudioFile>beef siren hi.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="567191424"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="beef siren hi" ID="{3F0F92D8-99CD-44DC-AC4D-21DB718D8E44}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="Fast siren lo" ID="{6786E795-6DB5-4B78-8997-1D0EC5BFE0D3}" ShortID="111996061">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
@@ -1407,35 +1506,6 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="Fast siren lo" ID="{367C0F13-56CB-42BB-A24F-7092DB62A55F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Fast siren hi" ID="{26C344E7-5805-4BCD-8422-A3168C5CB0AB}" ShortID="645910253">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Distance Attenuation" ID="{8B515EE9-52BB-4F89-BDEF-8FAB479FB882}" WorkUnitID="{AF8EA5B9-7C8E-46CE-BC1A-4C26F44ED9CD}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Fast siren hi" ID="{62133A8A-B127-4A9B-839C-5384DDB2B141}">
-									<Language>SFX</Language>
-									<AudioFile>Fast siren hi.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="130233522"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Fast siren hi" ID="{62133A8A-B127-4A9B-839C-5384DDB2B141}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Siren lo" ID="{3A5E7B41-072C-4A6D-B304-AF1B3477B2E7}" ShortID="592136449">
@@ -1504,40 +1574,6 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="police short" ID="{9E094D03-D533-45DC-901F-DCC06B4C45CB}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Siren hi" ID="{B7C14425-BC83-4B90-A083-FD081B00E60E}" ShortID="1054929278">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Distance Attenuation" ID="{8B515EE9-52BB-4F89-BDEF-8FAB479FB882}" WorkUnitID="{AF8EA5B9-7C8E-46CE-BC1A-4C26F44ED9CD}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF64901A-A65C-4FDA-8168-848F63C96689}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14AC22D3-9374-45DD-A71C-6D312CE9F228}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Siren hi" ID="{44514226-5371-40CE-889A-036CA4AED965}">
-									<Language>SFX</Language>
-									<AudioFile>Siren hi.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="463505214"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Siren hi" ID="{44514226-5371-40CE-889A-036CA4AED965}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -1914,7 +1950,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-96</Value>
+								<Value>-12</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
