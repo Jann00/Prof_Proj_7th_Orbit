@@ -5,9 +5,9 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
-   "SourceFilesRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Content\\WwiseAudio\\Windows\\",
+   "ProjectRoot": "C:\\Unreal Projects\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\",
+   "SourceFilesRoot": "C:\\Unreal Projects\\Prof_Proj_7th_Orbit\\Delivery_Turbo_S_Wwise_Project_Folder\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Unreal Projects\\Prof_Proj_7th_Orbit\\Content\\WwiseAudio\\Windows\\",
    "ExternalSourcesInputFile": "",
    "ExternalSourcesOutputRoot": "C:\\GIthub Repos\\Prof_Proj_7th_Orbit\\Content\\Delivery_Turbo_S_Wwise_Project_Folder"
   },
@@ -28,7 +28,7 @@
     "Id": "2117772400",
     "GUID": "{29261A01-C6AC-44C3-8694-B7D78279D781}",
     "Language": "SFX",
-    "Hash": "4172568796",
+    "Hash": "2690052701",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Delivery_Turbo_SFX",
     "ShortName": "Delivery_Turbo_SFX",
     "Path": "Delivery_Turbo_SFX.bnk",
@@ -171,10 +171,10 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "752951143",
+        "Id": "298173636",
         "Language": "SFX",
-        "ShortName": "engine sound try 4.wav",
-        "Path": "SFX\\engine sound try 4_B7E2DDC7.wem"
+        "ShortName": "engine sound try 10.wav",
+        "Path": "SFX\\engine sound try 10_AF2AB7C7.wem"
        }
       ]
      },
@@ -572,6 +572,12 @@
       "Path": "SFX\\Rev lo_D79FB2B7.wem"
      },
      {
+      "Id": "298173636",
+      "Language": "SFX",
+      "ShortName": "engine sound try 10.wav",
+      "Path": "SFX\\engine sound try 10_AF2AB7C7.wem"
+     },
+     {
       "Id": "325336864",
       "Language": "SFX",
       "ShortName": "Boost_End.wav",
@@ -780,12 +786,6 @@
       "Language": "SFX",
       "ShortName": "Thud\\Thud1.wav",
       "Path": "SFX\\Thud\\Thud1_10C4C929.wem"
-     },
-     {
-      "Id": "752951143",
-      "Language": "SFX",
-      "ShortName": "engine sound try 4.wav",
-      "Path": "SFX\\engine sound try 4_B7E2DDC7.wem"
      },
      {
       "Id": "754173065",
