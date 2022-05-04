@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>D:\Users\User\Documents\GitHub\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\</ProjectRoot>
-		<SourceFilesRoot>D:\Users\User\Documents\GitHub\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Users\User\Documents\GitHub\Prof_Proj_7th_Orbit\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Unreal Projects\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\</ProjectRoot>
+		<SourceFilesRoot>C:\Unreal Projects\Prof_Proj_7th_Orbit\Delivery_Turbo_S_Wwise_Project_Folder\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Unreal Projects\Prof_Proj_7th_Orbit\Content\WwiseAudio\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>C:\GIthub Repos\Prof_Proj_7th_Orbit\Content\Delivery_Turbo_S_Wwise_Project_Folder</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1716381387">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="790241926">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
