@@ -1,6 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B1970D2E-BBCC-481A-ABE9-D838F7B4E7C6}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{B1970D2E-BBCC-481A-ABE9-D838F7B4E7C6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B1970D2E-BBCC-481A-ABE9-D838F7B4E7C6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="main" ID="{43E9EB23-03B6-4E37-B752-B2B164810452}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Switch_Boost_Shield" ID="{E0C3F699-FB03-445B-BA69-29A814686361}" WorkUnitID="{25F709AA-7194-4D98-9CDA-C11A1CF34F61}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Shield_Parry" ID="{0F64643F-4653-4760-A2F9-8E7A012465CC}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player Death" ID="{D72D0311-FEA7-4743-AF50-46530853F785}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{6A631888-7CC2-47E7-8CB7-1A337D210976}" WorkUnitID="{25F709AA-7194-4D98-9CDA-C11A1CF34F61}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Shield_Activate" ID="{8A4B45B5-74F1-48C8-AACC-3224EF93CF16}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Roadblock_Start" ID="{F21E6C48-218F-4F9D-B075-C69E505548D4}" WorkUnitID="{25F709AA-7194-4D98-9CDA-C11A1CF34F61}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Near_Miss" ID="{D169DB1C-B9AA-4F8D-8E17-607E7BC4B630}" WorkUnitID="{25F709AA-7194-4D98-9CDA-C11A1CF34F61}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Thuds" ID="{76118708-A528-4C01-91DE-78F2B30344F5}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Roadblock_End" ID="{B941BC0C-536D-4D48-A456-1D08EC163E53}" WorkUnitID="{25F709AA-7194-4D98-9CDA-C11A1CF34F61}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EngineLoop" ID="{606D6590-C0A4-4A08-8733-16E534635B71}" WorkUnitID="{25F709AA-7194-4D98-9CDA-C11A1CF34F61}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Boost_Start" ID="{EDB26AAE-6784-4634-A3E4-922E50D3C274}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hold Shield" ID="{76ABAFED-10EC-4C43-9166-839E865F903C}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Boost_End" ID="{94F2DEC7-5508-4290-BEE7-09B4D1086EAE}" WorkUnitID="{DF04098D-9BE1-47E7-91BB-704B5355C75C}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Pitch" ID="{E9C849EC-F12C-4D7C-B57A-CAEF68B21108}"/>
+							<Value>91.3529411764706</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume" ID="{AEFB71B4-1F9C-4F77-BE0A-654E126C8D8B}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Engine" ID="{1F656194-22D8-4FC1-970E-EC671C82FEAF}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Cyber_City" ID="{75DAA388-FF9C-4680-BA2E-1BB99365DC58}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
