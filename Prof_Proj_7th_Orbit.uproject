@@ -7,7 +7,10 @@
 		{
 			"Name": "Prof_Proj_7th_Orbit",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	]
 }
